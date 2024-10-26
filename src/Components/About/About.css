@@ -1,5 +1,5 @@
 .about-wrapper {
-  height: 1500px;
+  height: 2000px;
   background-color: #008949;
   position: relative;
 }
@@ -14,7 +14,7 @@
   background: #fcf7ef;
   position: absolute;
   width: 93%;
-  height: 1350px;
+  height: 1850px;
   bottom: 0;
   right: 0;
   border-top-left-radius: 120px;
@@ -77,7 +77,7 @@
     position: absolute;
     width: 100px;
     left: -50px;
-    top: 700px;
+    top: 640px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -130,6 +130,13 @@
     .subtitle span:nth-child(1),
     .subtitle span:nth-child(2){
         display: none;
+    }
+    .description .details{
+        font-family: 'Poppins';
+        font-size: 16px;
+        text-align: justify;
+        color: var(--font-black);
+        
     }
     
 }

@@ -48,7 +48,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: rgb(77, 76, 76);
-  /* border-radius: 10px;  */
+  
 }
 
 ::-webkit-scrollbar-thumb:hover {

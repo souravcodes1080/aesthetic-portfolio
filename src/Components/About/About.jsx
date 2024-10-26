@@ -61,8 +61,6 @@ function About() {
               </div>
             </div>
             
-            <br /><br /><br />
-            <br /><br /><br></br>
             <Skill/>
           </div>
         </div>

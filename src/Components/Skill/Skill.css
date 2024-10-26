@@ -1,8 +1,15 @@
+.skills-section {
+  background-image: url("/assets/cloud.png");
+  background-repeat: no-repeat;
+  background-position: 800px 500px;
+}
+
 .skills-section .title {
   font-family: "Regan-ExtraBold";
   font-size: 50px;
   margin-bottom: 20px;
 }
+
 .contact {
   color: #e3a81d;
 }
@@ -11,13 +18,17 @@
 }
 .skills {
   color: #d41e28;
+  margin-top: 120px;
 }
 .experience {
   color: #d3719f;
+  margin-top: 120px;
 }
 .strengths {
   color: #3868a5;
+  position: relative;
 }
+
 .interests {
   color: #009349;
 }
@@ -30,6 +41,14 @@
 .col2 {
   width: 50%;
 }
+.col1 .bubbles {
+  width: 400px;
+  gap: 20px;
+}
+.col1 .bubbles img {
+  border-radius: 10px;
+  overflow: hidden;
+}
 .col1 .links div {
   display: flex;
   gap: 20px;
@@ -37,8 +56,76 @@
   color: var(--font-black);
 }
 .col1 .links div img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+  padding: 10px 0;
+}
+.links a {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: var(--font-black);
+  text-decoration: none;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+
+.school {
+  display: flex;
+  font-family: "Poppins";
+  font-size: 18px;
+  color: var(--font-black);
+  gap: 20px;
+}
+.school div p:nth-child(1) {
+  color: #009349;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.experience-heading{
+  color: #d3719f !important;
+}
+.achievements-heading{
+  color: #3868a5 !important;
+}
+.school div p:nth-child(2) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.school div p:nth-child(3) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bubbles {
+  display: flex;
+  column-gap: 15px;
+  row-gap: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.bubbles p {
+  margin: 0;
+  padding: 5px 25px;
+  width: fit-content;
+  border-radius: 50px;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+.bubbles p:nth-child(1) {
+  border: 3px solid #009349;
+}
+.bubbles p:nth-child(2) {
+  border: 3px solid #3868a5;
+}
+.bubbles p:nth-child(3) {
+  border: 3px solid #d3719f;
+}
+.bubbles p:nth-child(4) {
+  border: 3px solid #d41e28;
+}
+.bubbles p:nth-child(5) {
+  border: 3px solid #e3a81d;
 }
 
 @media screen and (max-width: 1500px) {
@@ -55,6 +142,53 @@
   .skills-section {
     padding: 0 20px;
   }
+  .links a {
+    font-family: "Poppins";
+    font-size: 16px;
+    color: var(--font-black);
+    text-decoration: none;
+  }
+
+  .contact {
+    color: #e3a81d;
+    margin-top: 60px;
+  }
+  .education {
+    color: #009349;
+    margin-top: 60px;
+  }
+  .skills {
+    color: #d41e28;
+    margin-top: 20px;
+  }
+  .experience {
+    color: #d3719f;
+    margin-top: 60px;
+  }
+  .strengths {
+    color: #3868a5;
+    margin-top: 60px;
+  }
+
+  .interests {
+    margin-top: 60px;
+    color: #009349;
+  }
+  .school div p{
+    width: max-content;
+    font-size: 16px;
+  }
+  .interest{
+    margin-bottom: 100px;
+  }
 }
 @media screen and (max-width: 500px) {
+  /* .skills {
+    color: #d41e28;
+    margin-top: 0px;
+  }
+  .experience {
+    color: #d3719f;
+    margin-top: 0px;
+  } */
 }
