@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Unnamed';
+    src: url('Regarn-Black.woff2') format('woff2'),
+        url('Regarn-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed';
+    src: url('Regarn-Bold.woff2') format('woff2'),
+        url('Regarn-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed ExtBd';
+    src: url('Regarn-ExtraBold.woff2') format('woff2'),
+        url('Regarn-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed ExtLt';
+    src: url('Regarn-ExtraLight.woff2') format('woff2'),
+        url('Regarn-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed Med';
+    src: url('Regarn-Medium.woff2') format('woff2'),
+        url('Regarn-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed';
+    src: url('Regarn-Light.woff2') format('woff2'),
+        url('Regarn-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed';
+    src: url('Regarn-Regular.woff2') format('woff2'),
+        url('Regarn-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed SemBd';
+    src: url('Regarn-SemiBold.woff2') format('woff2'),
+        url('Regarn-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unnamed';
+    src: url('Regarn-Thin.woff2') format('woff2'),
+        url('Regarn-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
