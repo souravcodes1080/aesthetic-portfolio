@@ -1,0 +1,128 @@
+.footer-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0px;
+}
+
+ .footer-hero .subtitle {
+  font-family: "Poppins";
+  letter-spacing: normal;
+  font-size: 16px;
+  position: absolute;
+  right: 250px;
+  color: var(--font-black);
+  bottom: -20px !important;
+}
+.footer-contact {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--font-black);
+  border-radius: 100px;
+  padding: 0 60px;
+  gap: 40px;
+}
+.footer-sub {
+  margin-bottom: 10px;
+  font-family: "Regan-Bold" !important;
+  font-size: 26px !important;
+}
+.footer-sub span:nth-child(1) {
+  color: #e3a81daf;
+}
+.footer-sub span:nth-child(2) {
+  color: #3868a5;
+}
+.footer-sub span:nth-child(3) {
+  color: #d41e28;
+}
+.thankyou-wrapper{
+    margin: 180px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Regan-ExtraBold';
+    font-size: 220px;
+    line-height: 0.7;
+}
+.thank span:nth-child(1){
+    color: #3868a5;
+}
+.thank span:nth-child(2){
+    color: #e3a81d;
+}
+.thank span:nth-child(3){
+    color: #d41e28;
+}
+.thank span:nth-child(4){
+    color: #009349;
+}
+.thank span:nth-child(5){
+    color: #d3719f;
+}
+
+.you span:nth-child(1){
+    color: #009349;
+}
+.you span:nth-child(2){
+    color: #e3a81d;
+}
+.you span:nth-child(3){
+    color: #3868a5;
+}
+.credit{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1500px) {
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 700px) {
+    .thankyou-wrapper{
+        margin: 100px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Regan-ExtraBold';
+        font-size: 150px;
+        line-height: 0.7;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer-contact{
+        border: none;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    .footer-contact p{
+      font-size: 16px;
+        margin: 0;
+    }
+    .footer-contact p:nth-child(2){
+        display: none;
+    }
+    .thankyou-wrapper{
+        margin: 100px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Regan-ExtraBold';
+        font-size: 120px;
+        line-height: 0.7;
+    }
+    .footer-hero .subtitle {
+        font-family: "Poppins";
+        letter-spacing: normal;
+        font-size: 14px;
+        position: absolute;
+        right: 90px;
+        width: 150px;
+        color: var(--font-black);
+        bottom: -40px !important;
+      }
+}

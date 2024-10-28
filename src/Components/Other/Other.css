@@ -1,0 +1,141 @@
+.other-wrapper {
+  height: 1550px;
+  background-color: #da1d2a;
+  position: relative;
+}
+.other-wrapper h2 {
+  font-family: "Regan-ExtraBold";
+  color: white;
+  font-size: 60px;
+  margin-left: 20%;
+  padding-top: 80px;
+  margin-top: 0;
+}
+.other-box {
+  background: #fcf7ef;
+  position: absolute;
+  width: 93%;
+  height: 1400px;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 120px;
+}
+.yellow_circle4{
+    position: absolute;
+    right: 150px;
+    bottom: 540px;
+}
+.curve2{
+    position: absolute;
+    left: 150px;
+    bottom: 220px;
+}
+.zigzag4{
+    position: absolute;
+    left: 190px;
+    top: 100px;
+}
+
+.other-works {
+  margin-top: 200px;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.other-work {
+    position: relative;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 40px;
+}
+.other-work .project-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.other-work button {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: none;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: var(--font-black);
+  background-color: transparent;
+}
+.other-work .blue {
+  border: 3px solid #8854a3;
+}
+.other-work .yellow {
+  border: 3px solid #e7ab1b;
+}
+.other-work .red {
+  border: 3px solid #da1d2a;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .other-wrapper {
+    height: 3300px;
+  }
+  .other-box {
+    height: 3150px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .other-wrapper h2 {
+    font-size: 60px;
+    margin-left: 50%;
+    padding-top: 80px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .other-box {
+    width: 100%;
+  }
+  .other-wrapper h2 {
+    margin: auto;
+    width: max-content;
+    font-size: 45px;
+  }
+  .yellow_circle4{
+    display: none;
+}
+.curve2{
+   display: none;
+}
+.zigzag4{
+   display: none;
+}
+}
+@media screen and (max-width: 500px) {
+    
+  .other-wrapper {
+    height: 2400px;
+    margin-top: 1400px;
+  }
+  .other-work {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .other-works {
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .other-box {
+    height: 2250px;
+  }
+}

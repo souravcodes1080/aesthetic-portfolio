@@ -3,8 +3,6 @@ import "./Homepage.css";
 import portfolio from "/assets/portfolio.png";
 import cloud from "/assets/cloud.png";
 function Homepage() {
-  
-
   return (
     <>
       <div className="container">
@@ -25,8 +23,18 @@ function Homepage() {
             welcome to <span>Sourav's</span>
           </p>
           <img src={portfolio} alt="portfolio_image" width={"100%"} />
-          <img className="cloud" src={cloud} alt="portfolio_image" width={"100%"} />
-          <img className="cloud2" src={cloud} alt="portfolio_image" width={"100%"} />
+          <img
+            className="cloud"
+            src={cloud}
+            alt="portfolio_image"
+            width={"100%"}
+          />
+          <img
+            className="cloud2"
+            src={cloud}
+            alt="portfolio_image"
+            width={"100%"}
+          />
         </div>
         <div className="date">
           <p>{new Date().getFullYear()}</p>
@@ -40,56 +48,56 @@ function Homepage() {
       <div className="welcome-banner" id="welcome">
         <div class="marquee">
           <div class="marquee-content">
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
-            <span>Welcome.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
+            <span>WELCOME.</span>
           </div>
         </div>
       </div>

@@ -2,15 +2,15 @@
 
 @font-face {
   font-family: "Regan-Bold";
-  src: url("../public/fonts/Regarn-Bold.woff2") format("woff2"),
-    url("../public/fonts/Regarn-Bold.woff") format("woff"),
-    url("../public/fonts/Regarn-Bold.ttf") format("truetype");
+  src: url("/fonts/Regarn-Bold.woff2") format("woff2"),
+    url("/fonts/Regarn-Bold.woff") format("woff"),
+    url("/fonts/Regarn-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Regan-ExtraBold";
-  src: url("../public/fonts/Regarn-ExtraBold.woff2") format("woff2"),
-    url("../public/fonts/Regarn-ExtraBold.woff") format("woff"),
-    url("../public/fonts/Regarn-ExtraBold.ttf") format("truetype");
+  src: url("/fonts/Regarn-ExtraBold.woff2") format("woff2"),
+    url("/fonts/Regarn-ExtraBold.woff") format("woff"),
+    url("/fonts/Regarn-ExtraBold.ttf") format("truetype");
 }
 
 :root {
@@ -30,7 +30,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: always;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .container {
@@ -39,15 +39,15 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(77, 76, 76);
+  background: rgb(176, 176, 176);
   
 }
 
@@ -72,6 +72,6 @@ html {
 }
 @media screen and (max-width: 500px) {
   .container {
-    width: 450px;
+    width: 100%;
   }
 }

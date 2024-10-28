@@ -42,7 +42,7 @@
   width: 50%;
 }
 .col1 .bubbles {
-  width: 400px;
+  width: 340px;
   gap: 20px;
 }
 .col1 .bubbles img {
@@ -191,4 +191,8 @@
     color: #d3719f;
     margin-top: 0px;
   } */
+  .col1 .bubbles {
+    width: 300px;
+    gap: 20px;
+  }
 }

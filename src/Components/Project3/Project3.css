@@ -1,0 +1,363 @@
+.project3-wrapper {
+    height: 2700px;
+    background-color: #8854a3;
+    position: relative;
+  }
+  .project3-wrapper h2 {
+    font-family: "Regan-ExtraBold";
+    color: white;
+    font-size: 60px;
+    margin-left: 55%;
+    padding-top: 80px;
+    margin-top: 0;
+  }
+  .project3-box {
+    background: #fcf7ef;
+    position: absolute;
+    width: 93%;
+    height: 2550px;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 120px;
+  }
+  .camera {
+    width: 150px;
+    position: absolute;
+    left: 140px;
+    top: 30px;
+  }
+  .tomato-wrapper {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 80px;
+  }
+  .tomato-desc {
+    flex: 2;
+    background-image: url("/assets/cloud.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  
+  .tomato-desc p {
+    font-family: "Poppins";
+    font-size: 18px;
+    color: var(--font-black);
+    text-align: justify;
+  }
+  .project3-box .tomato-desc p span {
+    font-family: "Regan-Bold";
+    font-size: 30px;
+    color: #da1d2a;
+    text-align: justify;
+  }
+  .tomato-desc .project-bubbles {
+    display: flex;
+    gap: 10px;
+    width: 90%;
+  }
+  .tomato-desc .project-bubbles span {
+    font-family: "Poppins";
+    font-size: 18px;
+    color: var(--font-black);
+    text-align: justify;
+    padding: 5px 25px;
+    border-radius: 50px;
+  }
+  .tomato-desc .bubbles span:nth-child(1) {
+    border: 3px solid #da1d2a;
+  }
+  .tomato-desc .bubbles span:nth-child(2) {
+      border: 3px solid #8854a3;
+    }
+    .tomato-desc .bubbles span:nth-child(3) {
+      border: 3px solid #e7ab1b;
+  }
+  .tomato-desc .bubbles span:nth-child(4) {
+    border: 3px solid #009349;
+  }
+  .tomato-img {
+    flex: 1;
+  }
+  .pipe1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+  }
+  .pipe2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: -50px;
+  }
+  .tomato-img img {
+    width: 700px;
+    border-radius: 60px;
+  }
+  .tomato-pictures {
+    margin: 40px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .tomato-outro {
+    display: flex;
+    gap: 40px;
+    background-image: url("/assets/cloud.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    /* height: 100%; */
+  }
+  .curve1{
+    width: 100px !important;
+    height: 100px;
+    position: absolute;
+    bottom: 300px;
+    left: -50px;
+  }
+  .star3{
+    width: 70px !important;
+    height:  70px;
+    position: absolute;
+    top: -60px;
+    left: -50px;
+  }
+  .tomato-outro .tomato-outro-img {
+    position: relative;
+    display: flex;
+    flex: 1;
+    gap: 40px;
+  }
+  .tomato-outro div img {
+    border-radius: 60px;
+    width: 100%;
+  }
+  .tomato-outro-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height:100%; */
+    align-items: center;
+    flex: 0.6;
+    font-family: "Poppins";
+    font-size: 18px;
+    color: var(--font-black);
+    text-align: justify;
+  }
+  .tomato-pictures img {
+    border-radius: 60px;
+  }
+  .bubbles1 {
+    position: absolute;
+    width: 80px !important;
+    top: -80px;
+    right: 0;
+    border-radius: 0px !important;
+    transform: rotate(30deg);
+}
+.bubbles2 {
+    position: absolute;
+    width: 80px !important;
+    bottom: -90px;
+    left: 0;
+    border-radius: 0px !important;
+    transform: rotate(210deg);
+  }
+  .live-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8854a3;
+    border-radius: 60px;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 68px;
+  }
+  .live-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .live-button button {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fcf7ef;
+  }
+  .live-para {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: justify;
+    /* padding: 15px 0px; */
+    color: #fcf7ef;
+    /* width: fit-content;
+    margin: auto; */
+  }
+  .project3-box .live {
+    background-color: #e7ab1b;
+  }
+  .project3-box .github {
+    background-color: #009349;
+  }
+  @media screen and (max-width: 1500px) {
+    .project3-wrapper {
+      height: 3300px;
+    }
+    .project3-box {
+      height: 3150px;
+    }
+    .tomato-wrapper {
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+      gap: 40px;
+    }
+    .tomato-desc {
+      flex: 1;
+      background-image: none;
+    }
+    .tomato-img img {
+      width: 100%;
+    }
+    .tomato-outro {
+      flex-direction: column;
+      background-image: none;
+    }
+    .tomato-outro-desc {
+      gap: 40px;
+    }
+    .star1,
+    .star2 {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .tomato-wrapper {
+      flex-direction: column;
+    }
+    .project3-wrapper h2 {
+      font-size: 60px;
+      margin-left: 50%;
+      padding-top: 80px;
+      margin-top: 0;
+    }
+    .tomato-outro-img {
+      align-items: center;
+      justify-content: center;
+    }
+    .tomato-outro-img img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .project3-box {
+      width: 100%;
+    }
+    .project3-wrapper h2 {
+      margin: auto;
+      width: max-content;
+      font-size: 40px;
+    }
+    .camera {
+      display: none;
+    }
+    .tomato-wrapper .bubbles {
+      /* width: 450px; */
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tomato-desc {
+      flex: 1;
+    }
+    .pipe1, .pipe2{
+        display: none;
+    }
+    .star3{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .project3-wrapper {
+      height: 1600px;
+    }
+  
+    .project3-box {
+      height: 1450px;
+    }
+    .project3-wrapper {
+      margin-top: 1500px;
+    }
+    .tomato-wrapper {
+      margin-top: 70px;
+    }
+    .project3-bubbles {
+      padding: 0 20px;
+      flex-wrap: wrap;
+    }
+    .tomato-desc p {
+      padding: 0 20px;
+      font-size: 16px;
+    }
+    .tomato-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tomato-img img {
+      border-radius: 20px;
+      width: 70%;
+      margin: auto;
+    }
+    .tomato-pictures {
+      margin: 20px 0;
+    }
+    .tomato-pictures img {
+      border-radius: 20px;
+      width: 70%;
+      margin: auto;
+    }
+    .tomato-outro div img {
+      border-radius: 20px;
+    }
+    .tomato-outro-img {
+      flex-direction: column;
+      width: 70%;
+      margin: auto;
+      gap: 20px !important;
+    }
+    .tomato-outro-desc {
+      font-size: 16px;
+      padding: 0 20px;
+    }
+    .tomato-outro-desc p {
+      padding: 0 20px;
+      font-size: 16px;
+    }
+    .live-wrapper {
+      height: 200px;
+      border-radius: 20px;
+    }
+    .live-para {
+      text-align: center;
+    }
+    .bubbles1, .bubbles2{
+       display: none;
+    }
+  }
+  

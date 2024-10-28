@@ -1,5 +1,5 @@
 .about-wrapper {
-  height: 2000px;
+  height: 2100px;
   background-color: #008949;
   position: relative;
 }
@@ -14,7 +14,7 @@
   background: #fcf7ef;
   position: absolute;
   width: 93%;
-  height: 1850px;
+  height: 1950px;
   bottom: 0;
   right: 0;
   border-top-left-radius: 120px;
@@ -63,7 +63,7 @@
     font-size: 20px;
     color: var(--font-black);
     display: flex;
-    width: 450px;
+    width: 100%;
     justify-content: space-between;
 }
 .description .details{
@@ -110,15 +110,24 @@
     .about-wrapper h2{
         margin: auto;
         width: max-content;
-        font-size: 50px;
+        font-size: 40px;
     }
     .about-box .flower{
         display: none;
     }
-   
+    .description .name{
+        font-size: 45px;
+        letter-spacing: 1px;
+        line-height: 0;
+        font-family: 'Regan-ExtraBold';
+    }
     
 }
 @media screen and (max-width: 500px) {
+    .about-me{
+        padding: 70px 20px;
+    }
+   
     .description .subtitle{
         font-family: 'Poppins';
         font-size: 16px;
