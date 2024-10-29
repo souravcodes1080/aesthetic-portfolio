@@ -41,9 +41,9 @@
 .col2 {
   width: 50%;
 }
-.col1 .bubbles {
-  width: 340px;
-  gap: 20px;
+.col2 .bubbles {
+  width: 400px;
+  /* gap: 20px; */
 }
 .col1 .bubbles img {
   border-radius: 10px;
@@ -110,22 +110,44 @@
   border-radius: 50px;
   font-family: "Poppins";
   font-size: 18px;
+  transition: .3s ease all;
+  cursor: pointer;
 }
 
 .bubbles p:nth-child(1) {
   border: 3px solid #009349;
 }
+.bubbles p:nth-child(1):hover {
+  background-color: #009349;
+  color: white;
+}
 .bubbles p:nth-child(2) {
   border: 3px solid #3868a5;
+}
+.bubbles p:nth-child(2):hover {
+  background-color: #3868a5;
+  color: white;
 }
 .bubbles p:nth-child(3) {
   border: 3px solid #d3719f;
 }
+.bubbles p:nth-child(3):hover {
+  background-color: #d3719f;
+  color: white;
+}
 .bubbles p:nth-child(4) {
   border: 3px solid #d41e28;
 }
+.bubbles p:nth-child(4):hover {
+  background-color: #d41e28;
+  color: white;
+}
 .bubbles p:nth-child(5) {
   border: 3px solid #e3a81d;
+}
+.bubbles p:nth-child(5):hover {
+  background-color: #e3a81d;
+  color: white;
 }
 
 @media screen and (max-width: 1500px) {
@@ -191,8 +213,8 @@
     color: #d3719f;
     margin-top: 0px;
   } */
-  .col1 .bubbles {
-    width: 300px;
+  .col2 .bubbles {
+    width: 300px !important;
     gap: 20px;
   }
 }

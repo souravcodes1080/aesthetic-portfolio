@@ -20,20 +20,20 @@
   right: 0;
   border-top-left-radius: 120px;
 }
-.yellow_circle4{
-    position: absolute;
-    right: 150px;
-    bottom: 540px;
+.yellow_circle4 {
+  position: absolute;
+  right: 150px;
+  bottom: 540px;
 }
-.curve2{
-    position: absolute;
-    left: 150px;
-    bottom: 220px;
+.curve2 {
+  position: absolute;
+  left: 150px;
+  bottom: 220px;
 }
-.zigzag4{
-    position: absolute;
-    left: 190px;
-    top: 100px;
+.zigzag4 {
+  position: absolute;
+  left: 190px;
+  top: 100px;
 }
 
 .other-works {
@@ -44,13 +44,29 @@
   justify-content: center;
 }
 .other-work {
-    position: relative;
+  position: relative;
   width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   row-gap: 40px;
+}
+.other-title p {
+  font-family: "Regan-Bold";
+  font-size: 26px;
+  color: #8854a3;
+}
+.other-title p {
+  font-family: "Regan-Bold";
+  font-size: 28px;
+  color: #8854a3;
+}
+.other-work-desc-p {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: var(--font-black);
+  text-align: justify;
 }
 .other-work .project-links {
   display: flex;
@@ -67,17 +83,26 @@
   font-family: "Poppins";
   color: var(--font-black);
   background-color: transparent;
+  transition: 0.3s ease all;
 }
 .other-work .blue {
   border: 3px solid #8854a3;
 }
+.other-work .blue:hover {
+  border: 3px solid #e7ab1b;
+}
 .other-work .yellow {
   border: 3px solid #e7ab1b;
+}
+.other-work .yellow:hover {
+  border: 3px solid #8854a3;
 }
 .other-work .red {
   border: 3px solid #da1d2a;
 }
-
+.other-work .red:hover {
+  border: 3px solid #009349;
+}
 
 @media screen and (max-width: 1500px) {
   .other-wrapper {
@@ -104,18 +129,17 @@
     width: max-content;
     font-size: 45px;
   }
-  .yellow_circle4{
+  .yellow_circle4 {
     display: none;
-}
-.curve2{
-   display: none;
-}
-.zigzag4{
-   display: none;
-}
+  }
+  .curve2 {
+    display: none;
+  }
+  .zigzag4 {
+    display: none;
+  }
 }
 @media screen and (max-width: 500px) {
-    
   .other-wrapper {
     height: 2400px;
     margin-top: 1400px;

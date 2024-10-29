@@ -11,7 +11,7 @@ function Project() {
   return (
     <>
       <div className="project-wrapper">
-        <h2>02. ecommerce</h2>
+        <h2>02. ordering with style</h2>
         <div className="project-box">
           <img src={pink_flower} alt="" className="pink-flower" />
           <div className="container">
@@ -19,23 +19,25 @@ function Project() {
               <div className="tomato-wrapper">
                 <div className="tomato-desc">
                   <div className="bubbles project-bubbles">
-                    <span>React JS</span>
-                    <span>Node JS</span>
-                    <span>Express</span>
-                    <span>Mongo DB</span>
+                    <span>MERN</span>
+                    <span>JWT</span>
+                    <span>Stripe</span>
+                    <span>Cloudinary</span>
                   </div>
                   <p>
-                    <span>Tomato Food Ordering App</span> sit amet consectetur
-                    adipisicing elit. Officia vero reiciendis voluptas ipsam
-                    veniam modi repellat consequatur velit error temporibus
-                    impedit fugit, debitis deleniti earum sint saepe aliquam
-                    mollitia expedita inventore neque! Harum, molestias eum.
-                    Debitis et accusamus eum quaerat earum pariatur consectetur
-                    dolorum vitae numquam possimus! Rem illo amet blanditiis
-                    aliquam accusantium vitae minus deleniti est quidem
-                    possimus, sed minima ad explicabo cum cumque laborum ipsum,
-                    sapiente nemo quaerat quis perferendis esse, corporis
-                    assumenda a. Autem suscipit eum numquam.
+                    <span>Tomato Food Ordering App</span> is a comprehensive
+                    food ordering platform designed to enhance the ordering
+                    experience for users. The website enables customers to
+                    browse through a diverse menu of food items that are
+                    displayed only if they are within a 10 km radius of the
+                    restaurant. Users can effortlessly update their personal
+                    details, add their addresses, and review their previous
+                    orders. With various payment options, including card
+                    payments through Stripe and cash on delivery, customers can
+                    complete their orders as effortlessly as they would{" "}
+                    <i>shake it off</i>. To keep users informed, the website
+                    sends order confirmation and tracking emails at various
+                    stages of the ordering process.
                   </p>
                 </div>
                 <div className="tomato-img">
@@ -47,33 +49,49 @@ function Project() {
               </div>
               <div className="tomato-outro">
                 <div className="tomato-outro-img">
-                  <img src={p2} alt="mobile view"  />
-                  <img src={p3} alt="mobile view"  />
+                  <img src={p2} alt="mobile view" />
+                  <img src={p3} alt="mobile view" />
                 </div>
                 <div className="tomato-outro-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus, est labore rerum impedit quos cum libero
-                  consequuntur aut iusto facere aperiam vitae eligendi numquam
-                  iure, at possimus voluptas fugiat architecto saepe iste ipsum?
-                  Aspernatur animi, vero pariatur repudiandae dolorem ullam,
-                  aperiam maxime magnam, sequi porro quae natus doloremque odit
-                  expedita?{" "}
-                  <div className="live-wrapper" >
-                    <img src={star} alt=""  className="star1"/>
-                    <img src={star} alt=""  className="star2"/>
-                    <p className="live-para">
-                    Access the live version or the github repository here!
-                  </p>
-                  <div className="live-button">
-                    <a href=""><button className="live">View Live</button></a>
-                    <a href=""><button className="github">Github</button></a>
+                  <ul>
+                    <li>
+                      Users can easily update their details and view previous
+                      orders through a dedicated panel, enhancing their
+                      experience.
+                    </li>{" "}
+                    <li>
+                      Integrated Stripe allows for seamless card payments,
+                      complemented by the convenient option for cash on
+                      delivery. Added coupon code option.{" "}
+                      <i>—You're the one I want.</i>
+                    </li>
+                    <li>
+                      Users receive email updates at various stages of the order
+                      process, fostering better engagement and communication.{" "}
+                    </li>
+                    <li>
+                      A separate admin panel enables easy updating of food
+                      items, user monitoring, and efficient order management.
+                    </li>
+                    <li>
+                      The website features over 800 lines of hand-coded CSS,
+                      ensuring a fully responsive design that adapts beautifully
+                      to both large and small devices.
+                    </li>
+                  </ul>
+                  <div className="project-live-wrapper">
+                    <img src={star} alt="" className="star1" />
+                    <img src={star} alt="" className="star2" />
+                    <a href="https://tomato-food-delivery.onrender.com/" target="_blank">
+                      <div className="live-circle">view live</div>
+                    </a>
+                    <a href="https://github.com/souravcodes1080/food-delivery" target="_blank">
+                      <div className="code-circle"> github</div>
+                    </a>
                   </div>
-                  </div>
-                  
                 </div>
               </div>
             </section>
-
           </div>
         </div>
       </div>

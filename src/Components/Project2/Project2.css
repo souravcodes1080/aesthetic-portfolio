@@ -168,13 +168,13 @@
   position: absolute;
   width: 70px !important;
   top: -60px;
-  right: 0;
+  right: 30px;
 }
 .project2-box .star2 {
   position: absolute;
   width: 70px !important;
   bottom: -60px;
-  left: 0;
+  left: 30px;
 }
 .project2-box .live-wrapper {
   position: relative;
@@ -214,11 +214,19 @@
   /* width: fit-content;
     margin: auto; */
 }
-.project2-box .live {
+
+.project2-box .project-live-wrapper .live-circle {
   background-color: #8854a3;
 }
-.project2-box .github {
+.project-live-wrapper .live-circle:hover {
+  transform: scale(1.11);
+}
+.project2-box .project-live-wrapper .code-circle {
   background-color: #da1d2a;
+  -color: #009349;
+}
+.project-live-wrapper .code-circle:hover {
+  transform: scale(1.11);
 }
 @media screen and (max-width: 1500px) {
   .project2-wrapper {

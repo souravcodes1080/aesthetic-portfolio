@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import portfolio from "/assets/portfolio.png";
 import cloud from "/assets/cloud.png";
+import down from "/assets/down.png";
 function Homepage() {
   return (
     <>
@@ -41,7 +42,9 @@ function Homepage() {
           <div></div>
         </div>
         <div className="scroll">
-          <a href="#welcome">scroll down to view</a>
+          <a href="#welcome">
+            scroll down to view 
+          </a><img className="down-arrow" src={down} alt="" />
         </div>
       </div>
 

@@ -97,6 +97,7 @@
   background-repeat: no-repeat;
   background-position: 100% 0;
   /* height: 100%; */
+  align-items: flex-start;
 }
 .tomato-outro .tomato-outro-img {
   display: flex;
@@ -112,6 +113,7 @@
   flex-direction: column;
   justify-content: space-between;
   /* height:100%; */
+  gap: 100px;
   align-items: center;
   flex: 0.6;
   font-family: "Poppins";
@@ -126,13 +128,13 @@
   position: absolute;
   width: 60px !important;
   top: -60px;
-  right: 0;
+  right: 30px;
 }
 .star2 {
   position: absolute;
   width: 60px !important;
   bottom: -60px;
-  left: 0;
+  left: 30px;
 }
 .live-wrapper {
   position: relative;
@@ -172,11 +174,18 @@
   /* width: fit-content;
   margin: auto; */
 }
-.project-box .live {
+
+.project-box .project-live-wrapper .live-circle {
+  background-color: #cd7296;
+}
+.project-live-wrapper .live-circle:hover {
+  transform: scale(1.11);
+}
+.project-box .project-live-wrapper .code-circle {
   background-color: #009349;
 }
-.project-box .github {
-  background-color: #e7ab1b;
+.project-live-wrapper .code-circle:hover {
+  transform: scale(1.11);
 }
 @media screen and (max-width: 1500px) {
   .project-wrapper {
@@ -238,7 +247,7 @@
   .project-wrapper h2 {
     margin: auto;
     width: max-content;
-    font-size: 50px;
+    font-size: 35px;
   }
   .pink-flower {
     display: none;

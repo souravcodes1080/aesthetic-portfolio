@@ -9,12 +9,13 @@ import bubbles from "/assets/bubbles.png";
 import curve from "/assets/curve.png";
 import camera from "/assets/camera.png";
 import star from "/assets/star.png";
+import view from "/assets/view.png";
 import cloud from "/assets/cloud.png";
 function Project3() {
   return (
     <>
       <div className="project3-wrapper">
-        <h2>04. image compressor</h2>
+        <h2>04. picture to burn</h2>
         <div className="project3-box">
           <img src={camera} alt="" className="camera" />
           <div className="container">
@@ -29,17 +30,18 @@ function Project3() {
                     <span>Browser Image Compression</span>
                   </div>
                   <p>
-                    <span>Image Compressor</span> sit amet consectetur
-                    adipisicing elit. Officia vero reiciendis voluptas ipsam
-                    veniam modi repellat consequatur velit error temporibus
-                    impedit fugit, debitis deleniti earum sint saepe aliquam
-                    mollitia expedita inventore neque! Harum, molestias eum.
-                    Debitis et accusamus eum quaerat earum pariatur consectetur
-                    dolorum vitae numquam possimus! Rem illo amet blanditiis
-                    aliquam accusantium vitae minus deleniti est quidem
-                    possimus, sed minima ad explicabo cum cumque laborum ipsum,
-                    sapiente nemo quaerat quis perferendis esse, corporis
-                    assumenda a. Autem suscipit eum numquam.
+                    <span>Image Compressor</span> is a React JS utility web app
+                    is designed specifically for developers looking to optimize
+                    their images and assets for building websites. This
+                    application utilizes a browser image compression library for
+                    client-side image compression. It supports multi-thread (web
+                    worker) non-blocking compression options, allowing users to
+                    continue working without interruption. By streamlining the
+                    image compression process, this tool ensures that developers
+                    can enhance website performance without sacrificing quality.
+                    It's all about efficiency—making the web a little lighter,
+                    just like how <i>Taylor's</i> melodies can lift your
+                    spirits!
                   </p>
                 </div>
               </div>
@@ -56,27 +58,46 @@ function Project3() {
                   <img src={p33} alt="mobile view" />
                 </div>
                 <div className="tomato-outro-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus, est labore rerum impedit quos cum libero
-                  consequuntur aut iusto facere aperiam vitae eligendi numquam
-                  iure, at possimus voluptas fugiat architecto saepe iste ipsum?
-                  Aspernatur animi, vero pariatur repudiandae dolorem ullam,
-                  aperiam maxime magnam, sequi porro quae natus doloremque odit
-                  expedita?{" "}
-                  <div className="live-wrapper">
+                  <ul>
+                    <li>
+                      React JS utility web app that can be used by developers to
+                      compress their images/assets for building websites.
+                    </li>
+                    <li>
+                      Used browser image compression library for compressing the
+                      image on the client side.
+                    </li>
+                    <li>
+                      Multi-thread (web worker) non-blocking compression is
+                      supported through options.
+                    </li>
+                    <li>
+                      Can compress images up to 85% without degrading the
+                      quality.
+                    </li>
+                    <li>
+                      Supports various image formats, including JPEG, PNG, and
+                      GIF, ensuring versatility for users.
+                    </li>
+                    <li>
+                      User-friendly interface allows for drag-and-drop
+                      functionality, making it easy to upload images.
+                    </li>
+                    <li>
+                      Offers customizable compression settings, enabling users
+                      to adjust quality levels based on their specific needs.
+                    </li>
+                  </ul>
+
+                  <div className="project-live-wrapper">
                     <img src={bubbles} alt="" className="bubbles1" />
                     <img src={bubbles} alt="" className="bubbles2" />
-                    <p className="live-para">
-                      Access the live version or the github repository here!
-                    </p>
-                    <div className="live-button">
-                      <a href="">
-                        <button className="live">View Live</button>
-                      </a>
-                      <a href="">
-                        <button className="github">Github</button>
-                      </a>
-                    </div>
+                    <a href="https://image-compressor-online.netlify.app/" target="_blank">
+                      <div className="live-circle">view live</div>
+                    </a>
+                    <a href="https://github.com/souravcodes1080/img-compressor" target="_blank">
+                      <div className="code-circle"> github</div>
+                    </a>
                   </div>
                 </div>
               </div>

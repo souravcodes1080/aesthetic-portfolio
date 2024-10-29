@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <div className="about-wrapper">
-        <h2>01. introduction</h2>
+        <h2>01. blank space</h2>
         <div className="about-box">
           <img src={flower} alt="" className="flower" />
           <div className="container">
@@ -21,12 +21,13 @@ function About() {
 
             <div className="about-me">
               <div className="profile">
-                <img src={profile} alt="" />
+                <img src={profile} alt="Karma" />
+                
               </div>
               <div className="description">
                 <div className="name">
                   <p>
-                    <i>hello, it's </i>
+                    <i>it's me, hi</i>
                   </p>
                   <p>SOURAV CHOWDHURY</p>
                 </div>
@@ -41,27 +42,27 @@ function About() {
 
                 <div className="details">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis quisquam saepe fuga voluptates illo quae? Eos
-                    adipisci excepturi hic voluptatem dolores incidunt
-                    repudiandae aspernatur eum harum quia rem accusamus
-                    architecto aliquid, consequatur eveniet sapiente tenetur,
-                    tempore reprehenderit rerum dolore! Accusamus!
+                    <i>I bet you think about me. </i>I'm a final-year Computer Science student pursuing my
+                    bachelor's degree with a passion for web development. I've
+                    dedicated years to mastering front-end design and am now
+                    focused on backend skills. Alongside development, I'm also
+                    exploring newer web technologies to stay updated with the
+                    latest in the field.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aliquid ducimus nisi, aliquam possimus excepturi a.
-                    Eius ullam itaque, sequi id asperiores vero laboriosam
-                    accusamus, voluptates reiciendis minus laborum incidunt
-                    veritatis nisi voluptate fugiat, neque sit ad iusto
-                    repellendus quo perspiciatis nulla soluta! Tenetur eligendi
-                    illo cum rem commodi dolorum?
+                    I'm passionate about blending creativity and technology. I
+                    enjoy creating digital art, designing web templates, and{" "}
+                    <i>paper rings. </i>Along with my technical skills, 
+                    <i> I never go out of Style</i> when it comes to leadership,
+                    teamwork, and a focused, studious approach to everything I
+                    do. These qualities help me connect with others, learn
+                    continuously, and contribute meaningfully to any project.
                   </p>
                 </div>
               </div>
             </div>
-            
-            <Skill/>
+
+            <Skill />
           </div>
         </div>
       </div>

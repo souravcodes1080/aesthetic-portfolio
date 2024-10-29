@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer-header header">
           <p className="footer-sub">
             <i>
-              <span>let's</span> <span>create</span> <span>together</span>{" "}
+              <span>we are</span> <span>getting back</span> <span>together</span>{" "}
             </i>
           </p>
           <div className="footer-contact">
@@ -45,12 +45,14 @@ function Footer() {
             width={"100%"}
           />
         </div>
-        <div className="date">
+        <div className="date footer-date">
           <p>{new Date().getFullYear()}</p>
           <div></div>
         </div>
         <div className="scroll credit">
-          <a href="#welcome">Made with 💖 by sourav</a>
+          <p>and by the way, am going out tonight ✨</p>
+          <br />
+          <a href="#welcome">created with 💖 by sourav</a>
         </div>
       </div>
     </>

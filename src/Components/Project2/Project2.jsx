@@ -12,18 +12,14 @@ function Project2() {
   return (
     <>
       <div className="project2-wrapper">
-        <h2>03. url shortner</h2>
+        <h2>03. short n' sweet</h2>
         <div className="project2-box">
           <img src={flower} alt="" className="flower" />
           <img src={globe} alt="" className="globe" />
           <div className="container">
             <section>
               <div className="tomato-pictures">
-                <img
-                  src={zigzag}
-                  className="zigzag0"
-                  alt="yellow_circle"
-                />
+                <img src={zigzag} className="zigzag0" alt="yellow_circle" />
                 <img
                   src={yellow_circle}
                   className="yellow_circle1"
@@ -43,53 +39,62 @@ function Project2() {
                 <div className="tomato-desc">
                   <div className="bubbles project-bubbles">
                     <span>React JS</span>
-                    <span>Node JS</span>
                     <span>Express</span>
                     <span>Mongo DB</span>
+                    <span>Nanoid</span>
                   </div>
                   <p>
-                    <span>URL Shortner</span> sit amet consectetur adipisicing
-                    elit. Officia vero reiciendis voluptas ipsam veniam modi
-                    repellat consequatur velit error temporibus impedit fugit,
-                    debitis deleniti earum sint saepe aliquam mollitia expedita
-                    inventore neque! Harum, molestias eum. Debitis et accusamus
-                    eum quaerat earum pariatur consectetur dolorum vitae numquam
-                    possimus! Rem illo amet blanditiis aliquam accusantium vitae
-                    minus deleniti est quidem possimus, sed minima ad explicabo
-                    cum cumque laborum ipsum, sapiente nemo quaerat quis
-                    perferendis esse, corporis assumenda a. Autem suscipit eum
-                    numquam.
+                    <span>URL Shortner,</span> in the digital age, where every
+                    character counts, this full-stack application empowers users
+                    to generate their own short URLs for long links. With just a
+                    few clicks, this intuitive tool simplifies the sharing
+                    experience by transforming lengthy URLs into concise,
+                    manageable links that are perfect for social media posts,
+                    emails, or anywhere you want to share your favorite content.
+                    Its user-friendly interface ensures that anyone, regardless
+                    of technical skill, can navigate the process effortlessly.
                   </p>
                 </div>
               </div>
               <div className="tomato-outro">
                 <div className="tomato-outro-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellendus, est labore rerum impedit quos cum libero
-                  consequuntur aut iusto facere aperiam vitae eligendi numquam
-                  iure, at possimus voluptas fugiat architecto saepe iste ipsum?
-                  Aspernatur animi, vero pariatur repudiandae dolorem ullam,
-                  aperiam maxime magnam, sequi porro quae natus doloremque odit
-                  expedita?{" "}
-                  <div className="live-wrapper">
-                 
+                  <ul>
+                    <li>
+                      A full stack application where users can generate their
+                      own short URLs for long links.
+                    </li>
+                    <li>
+                      Hand-coded custom APIs for generating short URLs and
+                      mapping them to long URLs.
+                    </li>
+                    <li>
+                      Used Nanoid to generate unique random codes to serve as
+                      the short URLs, ensuring each link is unique.
+                    </li>
+                    <li>
+                      Implemented a Copy to Clipboard feature for easy access to
+                      short URLs.
+                    </li>
+                    <li>
+                      Utilized local storage to save previously shortened links
+                      in the browser for user convenience, making it easy to
+                      revisit favorite links.
+                    </li>
+                  </ul>
+
+                  <div className="project-live-wrapper">
                     <img src={zigzag} alt="" className="star1" />
                     <img src={zigzag} alt="" className="star2" />
-                    <p className="live-para">
-                      Access the live version or the github repository here!
-                    </p>
-                    <div className="live-button">
-                      <a href="">
-                        <button className="live">View Live</button>
-                      </a>
-                      <a href="">
-                        <button className="github">Github</button>
-                      </a>
-                    </div>
+                    <a href="https://srt-url-dev.vercel.app/" target="_blank">
+                      <div className="live-circle">view live</div>
+                    </a>
+                    <a href="https://github.com/souravcodes1080/url-shortner" target="_blank">
+                      <div className="code-circle"> github</div>
+                    </a>
                   </div>
                 </div>
                 <div className="tomato-outro-img">
-                <img
+                  <img
                     src={yellow_circle}
                     className="yellow_circle3"
                     alt="yellow_circle"
@@ -99,7 +104,6 @@ function Project2() {
                 </div>
               </div>
             </section>
-            
           </div>
         </div>
       </div>
