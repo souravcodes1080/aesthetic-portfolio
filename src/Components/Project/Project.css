@@ -1,3 +1,200 @@
+.project1-wrapper {
+  width: 100%;
+  background-color: #cd7296;
+}
+.project1-title {
+  margin-left: 150px;
+}
+.project1-title h1 {
+  font-family: "Regan-ExtraBold";
+  color: white;
+  font-size: 60px;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.project1-main {
+  display: flex;
+}
+.project1-main-left {
+  width: 150px;
+}
+.project1-main-right {
+  background-color: #fcf7ef;
+  width: 100%;
+  border-top-right-radius: 90px;
+  position: relative;
+}
+
+.bookmark,
+.flower {
+  position: absolute;
+  width: 120px;
+}
+.bookmark {
+  right: 150px;
+  top: -20px;
+}
+.flower {
+  top: 30%;
+  left: -60px;
+}
+
+.about-me {
+  padding: 0 50px;
+  display: flex;
+  gap: 100px;
+  background-image: url("/assets/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 30px;
+  margin-top: 100px;
+}
+.profile {
+  flex: 1;
+}
+.profile img {
+  margin-top: 50px;
+  width: 100%;
+  transform: rotate(350deg);
+}
+.description {
+  flex: 2;
+}
+.description .name {
+  font-size: 55px;
+  letter-spacing: 1px;
+  line-height: 0;
+  font-family: "Regan-ExtraBold";
+  margin: 50px 0;
+}
+.description .name p:nth-child(1) {
+  color: #747474;
+}
+.description .name p:nth-child(2) {
+  color: #dda11b;
+}
+.description .subtitle {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: var(--font-black);
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.description .details {
+  font-family: "Poppins";
+  font-size: 18px;
+  text-align: justify;
+  color: var(--font-black);
+}
+
+@media screen and (max-width: 1500px) {
+  .about-me {
+    margin-top: 100px;
+    gap: 60px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .description .name {
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  .name p {
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .bookmark,
+  .flower {
+    display: none;
+  }
+  .profile {
+    display: flex;
+    justify-content: center;
+  }
+  .about-title {
+    margin-left: 0px;
+  }
+  .about-title h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .about-me {
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .description .name p:nth-child(2) {
+    line-height: normal;
+  }
+  .profile img {
+    width: 100%;
+    transform: rotate(0deg);
+  }
+  .subtitle {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about-title h1 {
+    font-size: 42px;
+  }
+  .about-main-left {
+    display: none;
+  }
+
+  .about-me {
+    gap: 0;
+  }
+
+  .description .name {
+    font-size: 42px;
+    
+  }
+  .description .subtitle {
+    font-size: 16px;
+  }
+  .description .details {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .project-wrapper {
   height: 2500px;
   background-color: #cd7296;

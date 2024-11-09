@@ -20,8 +20,8 @@ function App() {
       </motion.div>
 
       <About/>
-      {/* <Project />
-      <Project2 />
+      <Project />
+      {/* <Project2 />
       <Project3 />
       <Other />
       <Footer /> */}
