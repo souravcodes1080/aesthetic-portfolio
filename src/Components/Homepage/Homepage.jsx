@@ -6,38 +6,24 @@ import down from "/assets/down.png";
 function Homepage() {
   return (
     <>
-      <div className="container">
-        <div className="header">
-          <p>
-            <span>s</span>
-            <span>o</span>
-            <span>u</span>
-            <span>r</span>
-            <span>a</span>
-            <span>v</span>
-            <span>.</span>
-          </p>
-          <p>web developer.</p>
-        </div>
-        <div className="hero">
-          <p>
-            welcome to <span>Sourav's</span>
-          </p>
-          <img src={portfolio} alt="portfolio_image" width={"100%"} />
-          <img
-            className="cloud"
-            src={cloud}
-            alt="portfolio_image"
-            width={"100%"}
-          />
-          <img
-            className="cloud2"
-            src={cloud}
-            alt="portfolio_image"
-            width={"100%"}
-          />
-        </div>
-        <div className="date">
+      <div className="container homepage">
+        <header>
+          <p className="brand">sourav.</p>
+          <p className="title">web developer.</p>
+        </header>
+
+        <main>
+          <img src={cloud} alt="" className="cloud" />
+          <img src={cloud} alt="" className="cloud2" />
+
+          <div className="hero-image">
+            <p className="welcome">
+              welcome to <span>Sourav's</span>
+            </p>
+            <img src={portfolio} alt="" className="portfolio" />
+          </div>
+
+          <div className="homepage-date">
           <p>{new Date().getFullYear()}</p>
           <div></div>
         </div>
@@ -46,6 +32,7 @@ function Homepage() {
             scroll down to view 
           </a><img className="down-arrow" src={down} alt="" />
         </div>
+        </main>
       </div>
 
       <div className="welcome-banner" id="welcome">

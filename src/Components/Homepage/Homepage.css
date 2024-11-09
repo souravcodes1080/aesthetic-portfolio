@@ -1,74 +1,55 @@
-.header {
-  margin-top: 20px;
+header {
   display: flex;
-  width: 100%;
-  align-items: center;
   justify-content: space-between;
-}
-.header p {
+  align-items: center;
   font-family: "Poppins";
-  font-weight: 400;
   color: var(--font-black);
-  font-size: 20px;
-}
-.header p:nth-child(1) {
-  font-family: "Poppins";
-  font-weight: 400;
-  color: var(--font-black);
+  padding: 0 40px;
   font-size: 18px;
+  height: 10vh;
 }
-.hero {
+.homepage main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homepage .hero-image {
   position: relative;
-  width: 940px;
-  margin: auto;
-  margin-top: 30px;
+  height: 70vh;
 }
-.hero p {
+.homepage .hero-image .portfolio {
+  height: 100%;
+}
+
+.hero-image .welcome {
   position: absolute;
-  top: -15px;
-  right: 75px;
+  top: -10px;
+  right: 80px;
   font-family: "Regan-ExtraBold";
   font-size: 38px;
   letter-spacing: 1px;
   color: #747474;
 }
-.down-arrow {
-  width: 20px;
-  /* position: absolute; */
-  /* transform: perspective(-10); */
-}
-.cloud {
-  position: absolute;
-  width: 500px;
-  bottom: -150px;
-  right: -300px;
-  z-index: -1;
-}
-.cloud2 {
-  position: absolute;
-  width: 500px;
-  top: 100px;
-  left: -300px;
-  z-index: -1;
-}
-.hero p span {
+.welcome span {
   color: #009349;
 }
-.date {
+.homepage-date {
   position: relative;
   margin: auto;
   width: fit-content;
-  margin-top: 30px;
+  height: fit-content;
 }
-.date p {
+.homepage-date p {
   font-family: "Regan-ExtraBold";
   font-size: 36px;
   color: var(--font-black);
   /* mix-blend-mode: color-burn; */
 }
-.date div {
+.homepage-date div {
   position: absolute;
-  bottom: 0;
+  bottom: 35px;
   width: 100%;
   background: #e3a81daf;
   height: 25px;
@@ -81,7 +62,8 @@
   font-size: 18px;
   font-family: "Poppins";
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
   position: relative;
   display: flex;
   align-items: center;
@@ -91,6 +73,25 @@
   text-decoration: none;
   color: var(--font-black);
 }
+
+.down-arrow {
+  width: 20px;
+}
+.cloud {
+  position: absolute;
+  width: 500px;
+  bottom: 0px;
+  right: 20px;
+  z-index: -1;
+}
+.cloud2 {
+  position: absolute;
+  width: 500px;
+  top: 100px;
+  left: 20px;
+  z-index: -1;
+}
+
 .welcome-banner {
   background-color: var(--font-black);
   margin-bottom: 50px;
@@ -187,49 +188,51 @@
   .hero {
     width: 700px;
   }
-}
-@media screen and (max-width: 700px) {
-  .hero {
-    width: 500px;
-    margin-top: 60px;
-  }
-
-  .hero p {
-    font-size: 26px;
-    right: 30px;
-  }
-  .date p {
-    font-size: 30px;
-  }
-  .date div {
-    height: 20px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .header p {
-    padding: 0 20px;
-    font-size: 16px;
-  }
-  .hero {
-    width: 100%;
-    margin-top: 60px;
-    margin: 60px 0 0 0;
-  }
-  .hero p {
-    font-size: 22px;
-    right: 30px;
-  }
-  .date p {
-    font-size: 25px;
-  }
-  .date div {
-    height: 15px;
-  }
-  .scroll a {
-    font-size: 16px;
-  }
-  .cloud,
-  .cloud2 {
+  .cloud {
+    right: 0;
     display: none;
   }
+  .cloud2 {
+    right: 0;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .homepage .hero-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .hero-image .portfolio {
+    width: 100%;
+  }
+  .hero-image .welcome {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    font-family: "Regan-ExtraBold";
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #747474;
+  }
+
+  header {
+    height: 80px;
+  }
+  .homepage main {
+    height: fit-content;
+  }
+
+  .scroll {
+    margin-bottom: 30px;
+  }
+  .scroll a {
+    text-decoration: none;
+    color: var(--font-black);
+  }
+
+}
+@media screen and (max-width: 500px) {
+
 }

@@ -20,11 +20,11 @@ function App() {
       </motion.div>
 
       <About/>
-      <Project />
+      {/* <Project />
       <Project2 />
       <Project3 />
       <Other />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
