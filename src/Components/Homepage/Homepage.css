@@ -234,5 +234,10 @@ header {
 
 }
 @media screen and (max-width: 500px) {
-
+  header{
+    font-size: 16px;
+  }
+  .scroll{
+    font-size: 16px;
+  }
 }
