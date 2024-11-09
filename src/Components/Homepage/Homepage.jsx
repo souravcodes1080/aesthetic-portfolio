@@ -36,8 +36,8 @@ function Homepage() {
       </div>
 
       <div className="welcome-banner" id="welcome">
-        <div class="marquee">
-          <div class="marquee-content">
+        <div className="marquee">
+          <div className="marquee-content">
             <span>WELCOME.</span>
             <span>WELCOME.</span>
             <span>WELCOME.</span>
