@@ -81,9 +81,7 @@ function Footer() {
           </div>
         </div>
         <div className="hero footer-hero">
-          <span className="subtitle">
-            <i>for scrolling all the way down here</i>
-          </span>
+          
           {/* <img src={portfolio} alt="portfolio_image" width={"100%"} /> */}
           <div className="thankyou-wrapper">
             <div className="thank">
