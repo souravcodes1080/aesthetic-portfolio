@@ -1,5 +1,5 @@
 .project2-wrapper {
-  height: 2500px;
+  height: 2215px;
   background-color: #e7ab1b;
   position: relative;
 }
@@ -7,18 +7,22 @@
   font-family: "Regan-ExtraBold";
   color: white;
   font-size: 60px;
-  margin-left: 20%;
-  padding-top: 80px;
+  margin-left: 120px;
   margin-top: 0;
+  padding: 50px 0;
 }
 .project2-box {
   background: #fcf7ef;
   position: absolute;
-  width: 93%;
-  height: 2350px;
+  width: 92%;
+  height: 2050px;
   bottom: 0;
   right: 0;
-  border-top-left-radius: 120px;
+  border-top-left-radius: 90px;
+}
+.project2-box .container section{
+  padding: 0 50px
+
 }
 .globe {
   width: 120px;
@@ -96,7 +100,7 @@
   height: 100px;
   position: absolute;
   top: -70px;
-  right: 190px;
+  right: 50px;
 }
 .yellow_circle1 {
   z-index: -1;
@@ -117,7 +121,7 @@
 .project2-box .tomato-pictures {
   z-index: 1;
   position: relative;
-  margin-top: 200px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -130,6 +134,9 @@
   background-position: 0 0;
   /* height: 100%; */
 }
+.tomato-outro-desc ul{
+  padding-left: 20px;
+}
 .yellow_circle3 {
   z-index: -1;
   width: 120px !important;
@@ -138,12 +145,14 @@
   bottom: -50px;
   right: 100px;
 }
-.tomato-outro .tomato-outro-img {
+.project2-wrapper .tomato-outro .tomato-outro-img {
   z-index: 1;
   position: relative;
   display: flex;
   flex: 1;
   gap: 40px;
+  margin-right: 50px;
+  padding-right: 50px !important;
 }
 .tomato-outro div img {
   border-radius: 60px;
@@ -320,9 +329,11 @@
 @media screen and (max-width: 500px) {
   .project2-wrapper {
     height: 1600px;
-    margin-top: 1400px;
+    /* margin-top: 1400px; */
   }
-
+  .project2-wrapper section{
+    padding: 0 !important;
+  }
   .project2-box {
     height: 1450px;
   }

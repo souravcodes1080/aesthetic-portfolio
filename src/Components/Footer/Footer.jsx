@@ -6,17 +6,78 @@ import cloud from "/assets/cloud.png";
 function Footer() {
   return (
     <>
-      <div className="container">
-        <div className="footer-header header">
+      <div className="welcome-banner" id="welcome">
+        <div className="marquee">
+          <div className="marquee-content">
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+            <span>THE END.</span>
+          </div>
+        </div>
+      </div>
+      {/* <div className="container"> */}
+        <div className="footer-header ">
           <p className="footer-sub">
             <i>
-              <span>we are</span> <span>getting back</span> <span>together</span>{" "}
+              <span>we are</span> <span>getting back</span>{" "}
+              <span>together</span>{" "}
             </i>
           </p>
           <div className="footer-contact">
-            <p>phone: (+91) 86951 55200</p>
+            <p>
+              phone: <a href="#">(+91) 86951 55200</a>{" "}
+            </p>
             <p>|</p>
-            <p>souravch2003@gmail.com</p>
+            <p>
+              <a href="#">souravch2003@gmail.com</a>
+            </p>
           </div>
         </div>
         <div className="hero footer-hero">
@@ -26,17 +87,19 @@ function Footer() {
           {/* <img src={portfolio} alt="portfolio_image" width={"100%"} /> */}
           <div className="thankyou-wrapper">
             <div className="thank">
-                <span>t</span>
-                <span>h</span>
-                <span>a</span>
-                <span>n</span>
-                <span>k</span>
+              <span>t</span>
+              <span>h</span>
+              <span>a</span>
+              <span>n</span>
+              <span>k</span>
             </div>
             <div className="you">
-                <span>y</span>
-                <span>o</span>
-                <span>u</span>
+              <span>y<p className="thank-you-subtitle">and by the way, am going out tonight ✨</p></span>
+              <span>o</span>
+              <span>u</span>
             </div>
+            
+
           </div>
           <img
             className="cloud"
@@ -45,16 +108,15 @@ function Footer() {
             width={"100%"}
           />
         </div>
-        <div className="date footer-date">
-          <p>{new Date().getFullYear()}</p>
-          <div></div>
-        </div>
+        {/* <div className="homepage-date">
+            <p>{new Date().getFullYear()}</p>
+            <div></div>
+          </div> */}
         <div className="scroll credit">
-          <p>and by the way, am going out tonight ✨</p>
-          <br />
-          <a href="#welcome">created with 💖 by sourav</a>
+          
+          <a href="#">created with 💖 by sourav</a>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }

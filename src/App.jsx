@@ -21,10 +21,10 @@ function App() {
 
       <About/>
       <Project />
-      {/* <Project2 />
-      <Project3 />
-      <Other />
-      <Footer /> */}
+      {/* <Project2 /> */}
+        {/* <Project3 /> */}
+        {/* <Other /> */}
+        <Footer />
     </>
   );
 }

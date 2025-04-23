@@ -15,21 +15,21 @@ function Project2() {
         <h2>03. short n' sweet</h2>
         <div className="project2-box">
           <img src={flower} alt="" className="flower" />
-          <img src={globe} alt="" className="globe" />
+          {/* <img src={globe} alt="" className="globe" /> */}
           <div className="container">
             <section>
               <div className="tomato-pictures">
                 <img src={zigzag} className="zigzag0" alt="yellow_circle" />
-                <img
+                {/* <img
                   src={yellow_circle}
                   className="yellow_circle1"
                   alt="yellow_circle"
-                />
-                <img
+                /> */}
+                {/* <img
                   src={yellow_circle}
                   className="yellow_circle2"
                   alt="yellow_circle"
-                />
+                /> */}
                 <img src={p21} alt="desktop_view" width={"100%"} />
               </div>{" "}
               <div className="tomato-wrapper">

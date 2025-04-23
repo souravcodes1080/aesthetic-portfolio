@@ -1,9 +1,10 @@
 .project1-wrapper {
   width: 100%;
   background-color: #cd7296;
+  height:100%;
 }
 .project1-title {
-  margin-left: 150px;
+  margin-right: 150px;
 }
 .project1-title h1 {
   font-family: "Regan-ExtraBold";
@@ -11,6 +12,20 @@
   font-size: 60px;
   margin: 0;
   padding: 50px 0;
+  text-align: right;
+}
+.tomato-wrapper{
+  margin-top: 70px !important;
+  /* margin-top: 50px; */
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+}
+.tomato-desc{
+  flex: 1 !important;
+}
+.tomato-img{
+  flex-direction: 1 !important;
 }
 
 .project1-main {
@@ -21,106 +36,25 @@
 }
 .project1-main-right {
   background-color: #fcf7ef;
+  /* background-color: #c88314; */
+  height: 100%;
+  display: flex;
   width: 100%;
   border-top-right-radius: 90px;
-  position: relative;
+
 }
 
-.bookmark,
-.flower {
-  position: absolute;
-  width: 120px;
-}
-.bookmark {
-  right: 150px;
-  top: -20px;
-}
-.flower {
-  top: 30%;
-  left: -60px;
+.project1-main-right .container section{
+  padding: 0 50px 50px 50px;
 }
 
-.about-me {
-  padding: 0 50px;
-  display: flex;
-  gap: 100px;
-  background-image: url("/assets/cloud.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 30px;
-  margin-top: 100px;
-}
-.profile {
-  flex: 1;
-}
-.profile img {
-  margin-top: 50px;
-  width: 100%;
-  transform: rotate(350deg);
-}
-.description {
-  flex: 2;
-}
-.description .name {
-  font-size: 55px;
-  letter-spacing: 1px;
-  line-height: 0;
-  font-family: "Regan-ExtraBold";
-  margin: 50px 0;
-}
-.description .name p:nth-child(1) {
-  color: #747474;
-}
-.description .name p:nth-child(2) {
-  color: #dda11b;
-}
-.description .subtitle {
-  font-family: "Poppins";
-  font-size: 20px;
-  color: var(--font-black);
-  display: flex;
-  width: 60%;
-  justify-content: space-between;
-}
-.description .details {
-  font-family: "Poppins";
-  font-size: 18px;
-  text-align: justify;
-  color: var(--font-black);
-}
 
-@media screen and (max-width: 1500px) {
-  .about-me {
-    margin-top: 100px;
-    gap: 60px;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .description .name {
-    line-height: normal;
-    margin-bottom: 30px;
-  }
-  .name p {
-    margin: 0;
-  }
-  
-}
 
 @media screen and (max-width: 1000px) {
-  .bookmark,
-  .flower {
-    display: none;
+  .project1-title {
+    margin: 0;
   }
-  .profile {
-    display: flex;
-    justify-content: center;
-  }
-  .about-title {
-    margin-left: 0px;
-  }
-  .about-title h1 {
+  .project1-title h1 {
     text-align: center;
     font-size: 50px;
   }
@@ -143,10 +77,10 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .about-title h1 {
+  .project1-title h1 {
     font-size: 42px;
   }
-  .about-main-left {
+  .project1-main-left {
     display: none;
   }
 
@@ -156,7 +90,6 @@
 
   .description .name {
     font-size: 42px;
-    
   }
   .description .subtitle {
     font-size: 16px;
@@ -166,37 +99,8 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .project-wrapper {
-  height: 2500px;
+  /* height: 2500px; */
   background-color: #cd7296;
   position: relative;
 }
@@ -208,34 +112,25 @@
   padding-top: 80px;
   margin-top: 0;
 }
-.project-box {
-  background: #fcf7ef;
-  position: absolute;
-  width: 93%;
-  height: 2350px;
-  bottom: 0;
-  left: 0;
-  border-top-right-radius: 120px;
-}
+
 .pink-flower {
   width: 150px;
   position: absolute;
   left: 70px;
   top: 30px;
 }
-.tomato-wrapper {
-  margin-top: 200px;
+/* .tomato-wrapper {
   display: flex;
   width: 100%;
   justify-content: space-between;
   gap: 80px;
-}
-.tomato-desc {
+} */
+/* .tomato-desc {
   flex: 2;
   background-image: url("/assets/cloud.png");
   background-repeat: no-repeat;
   background-position: bottom;
-}
+} */
 
 .tomato-desc p {
   font-family: "Poppins";
@@ -249,12 +144,12 @@
   color: #e7ab1b;
   text-align: justify;
 }
-.tomato-desc .project-bubbles {
+ .project-bubbles {
   display: flex;
   gap: 10px;
   width: 90%;
 }
-.tomato-desc .project-bubbles span {
+ .project-bubbles span {
   font-family: "Poppins";
   font-size: 18px;
   color: var(--font-black);
@@ -262,20 +157,24 @@
   padding: 5px 25px;
   border-radius: 50px;
 }
-.tomato-desc .bubbles span:nth-child(1) {
+.bubbles span:nth-child(1) {
   border: 3px solid #da1d2a;
 }
-.tomato-desc .bubbles span:nth-child(2) {
+ .bubbles span:nth-child(2) {
   border: 3px solid #e7ab1b;
 }
-.tomato-desc .bubbles span:nth-child(3) {
+ .bubbles span:nth-child(3) {
   border: 3px solid #8854a3;
 }
-.tomato-desc .bubbles span:nth-child(4) {
+ .bubbles span:nth-child(4) {
   border: 3px solid #009349;
 }
 .tomato-img {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  gap: 30px;
+  justify-content: space-between;
 }
 .tomato-img img {
   width: 700px;
@@ -289,8 +188,10 @@
 }
 .tomato-outro {
   display: flex;
+  flex-direction: row !important;
   gap: 40px;
-  background-image: url("/assets/cloud.png");
+  margin-bottom: 50px;
+  /* background-image: url("/assets/cloud.png"); */
   background-repeat: no-repeat;
   background-position: 100% 0;
   /* height: 100%; */
@@ -317,6 +218,9 @@
   font-size: 18px;
   color: var(--font-black);
   text-align: justify;
+}
+.tomato-outro-desc ul{
+  padding-left: 70px;
 }
 .tomato-pictures img {
   border-radius: 60px;
@@ -385,12 +289,7 @@
   transform: scale(1.11);
 }
 @media screen and (max-width: 1500px) {
-  .project-wrapper {
-    height: 3300px;
-  }
-  .project-box {
-    height: 3150px;
-  }
+ 
   .tomato-wrapper {
     margin-top: 200px;
     display: flex;
@@ -459,18 +358,17 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .project-wrapper {
-    height: 1600px;
-  }
 
+  .project1-main-right section{
+    padding: 0 !important;
+  }
   .project-box {
     height: 1450px;
   }
-  .project-wrapper {
-    margin-top: 1500px;
-  }
+ 
   .tomato-wrapper {
     margin-top: 70px;
+    gap: 20px !important;
   }
   .project-bubbles {
     padding: 0 20px;
@@ -484,32 +382,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
   }
   .tomato-img img {
     border-radius: 20px;
-    width: 70%;
-    margin: auto;
+    width: 90% !important;
+    margin: 0 !important;
   }
   .tomato-pictures {
     margin: 20px 0;
   }
   .tomato-pictures img {
     border-radius: 20px;
-    width: 70%;
+    width: 90% !important;
     margin: auto;
+  }
+  .tomato-outro {
+    display: flex;
+    flex-direction: column !important;
+   gap: 10px !important;
   }
   .tomato-outro div img {
     border-radius: 20px;
   }
   .tomato-outro-img {
     flex-direction: column;
-    width: 70%;
+    width: 90% !important;
     margin: auto;
     gap: 20px !important;
   }
   .tomato-outro-desc {
     font-size: 16px;
     padding: 0 20px;
+  }
+  .tomato-outro-desc ul {
+    padding-left: 10px;
   }
   .tomato-outro-desc p {
     padding: 0 20px;

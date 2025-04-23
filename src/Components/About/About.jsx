@@ -41,8 +41,7 @@ function About() {
 
                   <div className="subtitle">
                     <span>
-                      Indian &nbsp;&nbsp; | &nbsp;&nbsp; 11th April, 2003
-                      &nbsp;&nbsp; | &nbsp;&nbsp;@_souravjustchill
+                      Indian&nbsp; |&nbsp; 11th April, 2003 &nbsp;| &nbsp;@_souravjustchill
                     </span>
                   </div>
 

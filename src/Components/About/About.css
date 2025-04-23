@@ -99,7 +99,7 @@
   }
 
   .description .name {
-    line-height: normal;
+    line-height: normal !important;
     margin-bottom: 30px;
   }
   .name p {

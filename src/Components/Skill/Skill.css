@@ -217,6 +217,9 @@
   
 }
 @media screen and (max-width: 500px) {
+  .skills-section{
+    margin-bottom: 0;
+  }
    .school div p{
     width: 270px;
    }

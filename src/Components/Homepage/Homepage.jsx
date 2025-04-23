@@ -24,14 +24,13 @@ function Homepage() {
           </div>
 
           <div className="homepage-date">
-          <p>{new Date().getFullYear()}</p>
-          <div></div>
-        </div>
-        <div className="scroll">
-          <a href="#welcome">
-            scroll down to view 
-          </a><img className="down-arrow" src={down} alt="" />
-        </div>
+            <p>{new Date().getFullYear()}</p>
+            <div></div>
+          </div>
+          <div className="scroll">
+            <a href="#welcome">scroll down to view</a>
+            <img className="down-arrow" src={down} alt="" />
+          </div>
         </main>
       </div>
 
