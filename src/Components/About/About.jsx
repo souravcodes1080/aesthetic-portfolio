@@ -9,7 +9,7 @@ function About() {
     <>
       <div className="about-wrapper">
         <div className="about-title">
-          <h1>01. Introduction</h1>
+          <h1>Introduction</h1>
         </div>
         <div className="about-main">
           <div className="about-main-left"></div>
@@ -55,8 +55,7 @@ function About() {
                       web technologies to stay updated with the latest in the
                       field.
                     </p>
-                    <p>
-                      I'm passionate about blending creativity and technology. I
+                    <p>I'm passionate about blending creativity and technology. I
                       enjoy creating digital art, designing web templates, and{" "}
                       <i>paper rings. </i>Along with my technical skills,
                       <i> I never go out of Style</i> when it comes to

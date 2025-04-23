@@ -48,7 +48,14 @@
   /* gap: 20px; */
 }
 .col1 .bubbles img {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: .18s ease ;
+}
+.col1 .bubbles img:hover {
   border-radius: 10px;
+  cursor: pointer;
+  scale: 1.05;
   overflow: hidden;
 }
 .col1 .links div {

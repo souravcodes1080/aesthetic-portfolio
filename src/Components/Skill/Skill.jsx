@@ -74,7 +74,7 @@ function Skill() {
             <div className="school">
               <p className="year">2021-2025</p>
               <div>
-                <p>Bachelors in Computer Science</p>
+                <p>BTech in Computer Science</p>
                 <p>Siliguri Institute of Technoloy</p>
                 <p>8.85 CGPA</p>
               </div>

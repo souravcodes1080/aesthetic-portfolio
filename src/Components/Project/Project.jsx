@@ -98,7 +98,7 @@ function Project() {
 
       <div className="project1-wrapper">
         <div className="project1-title">
-          <h1>02. The Hungry Helper</h1>
+          <h1>Projects</h1>
         </div>
         <div className="project1-main">
           <div className="project1-main-right">
