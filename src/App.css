@@ -1,0 +1,8 @@
+.curtain{
+    
+    background-color: orange;
+    z-index: 3;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}

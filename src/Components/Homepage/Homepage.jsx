@@ -3,6 +3,9 @@ import "./Homepage.css";
 import portfolio from "/assets/portfolio.png";
 import cloud from "/assets/cloud.png";
 import down from "/assets/down.png";
+
+import { motion } from "framer-motion";
+
 function Homepage() {
   return (
     <>
@@ -13,14 +16,33 @@ function Homepage() {
         </header>
 
         <main>
-          <img src={cloud} alt="" className="cloud" />
-          <img src={cloud} alt="" className="cloud2" />
+          <motion.img
+            initial={{ right:400, top: 0 }}
+            whileInView={{ right: 0 }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true, amount: 1}}
+            src={cloud}
+            alt=""
+            className="cloud"
+          />
+          <motion.img
+          initial={{ left:400, top: 180 }}
+          whileInView={{ left: 0 }}
+          transition={{ duration: 1.5 }}
+          viewport={{ once: true, amount: 1}}
+          src={cloud} alt="" className="cloud2" />
 
           <div className="hero-image">
             <p className="welcome">
               welcome to <span>Sourav's</span>
             </p>
-            <img src={portfolio} alt="" className="portfolio" />
+            <motion.img 
+            initial={{ height:"80%" }}
+            whileInView={{ height:"100%" }}
+            transition={{ duration: 1.5 }}
+            viewport={{ once: true, amount: 1}}
+            
+            src={portfolio} alt="" className="portfolio" />
           </div>
 
           <div className="homepage-date">

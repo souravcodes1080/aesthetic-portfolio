@@ -99,12 +99,7 @@ function Footer() {
             
 
           </div>
-          <img
-            className="cloud"
-            src={cloud}
-            alt="portfolio_image"
-            width={"100%"}
-          />
+         
         </div>
         {/* <div className="homepage-date">
             <p>{new Date().getFullYear()}</p>
