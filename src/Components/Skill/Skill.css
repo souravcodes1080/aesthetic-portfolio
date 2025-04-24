@@ -1,7 +1,7 @@
 .skills-section {
-  background-image: url("/assets/cloud.png");
+  /* background-image: url("/assets/cloud.png"); */
   background-repeat: no-repeat;
-  background-position: 800px 500px;
+  background-position: 1000px 500px;
   margin-left: 50px;
   margin-bottom: 50px;
 }
@@ -15,17 +15,21 @@
 .contact {
   color: #e3a81d;
 }
+
 .education {
   color: #009349;
 }
+
 .skills {
   color: #d41e28;
   margin-top: 120px;
 }
+
 .experience {
   color: #d3719f;
   margin-top: 120px;
 }
+
 .strengths {
   color: #3868a5;
   position: relative;
@@ -34,47 +38,55 @@
 .interests {
   color: #009349;
 }
+
 .row1,
 .row2,
 .row3 {
   display: flex;
 }
+
 .col1,
 .col2 {
   width: 50%;
 }
+
 .col2 .bubbles {
   width: 400px;
   /* gap: 20px; */
 }
-.col1 .bubbles img {
-  border-radius: 15px;
-  overflow: hidden;
-  transition: .18s ease ;
+
+
+
+.col1 .bubbles div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.col1 .bubbles img:hover {
-  border-radius: 10px;
-  cursor: pointer;
-  scale: 1.05;
-  overflow: hidden;
+
+.col1 .bubbles {
+
 }
+
 .col1 .links div {
   display: flex;
   gap: 20px;
   align-items: center;
   color: var(--font-black);
 }
+
 .col1 .links div img {
   width: 25px;
   height: 25px;
   padding: 10px 0;
 }
+
 .links a {
   font-family: "Poppins";
   font-size: 18px;
   color: var(--font-black);
   text-decoration: none;
 }
+
 .links a:hover {
   text-decoration: underline;
 }
@@ -86,25 +98,31 @@
   color: var(--font-black);
   gap: 20px;
 }
+
 .school div p:nth-child(1) {
   color: #009349;
   font-weight: 800;
   margin-bottom: 0;
 }
-.experience-heading{
+
+.experience-heading {
   color: #d3719f !important;
 }
-.achievements-heading{
+
+.achievements-heading {
   color: #3868a5 !important;
 }
+
 .school div p:nth-child(2) {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .school div p:nth-child(3) {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .bubbles {
   display: flex;
   column-gap: 15px;
@@ -112,6 +130,7 @@
   width: 300px;
   flex-wrap: wrap;
 }
+
 .bubbles p {
   margin: 0;
   padding: 5px 25px;
@@ -126,53 +145,65 @@
 .bubbles p:nth-child(1) {
   border: 3px solid #009349;
 }
+
 .bubbles p:nth-child(1):hover {
   background-color: #009349;
   color: white;
 }
+
 .bubbles p:nth-child(2) {
   border: 3px solid #3868a5;
 }
+
 .bubbles p:nth-child(2):hover {
   background-color: #3868a5;
   color: white;
 }
+
 .bubbles p:nth-child(3) {
   border: 3px solid #d3719f;
 }
+
 .bubbles p:nth-child(3):hover {
   background-color: #d3719f;
   color: white;
 }
+
 .bubbles p:nth-child(4) {
   border: 3px solid #d41e28;
 }
+
 .bubbles p:nth-child(4):hover {
   background-color: #d41e28;
   color: white;
 }
+
 .bubbles p:nth-child(5) {
   border: 3px solid #e3a81d;
 }
+
 .bubbles p:nth-child(5):hover {
   background-color: #e3a81d;
   color: white;
 }
 
-@media screen and (max-width: 1500px) {
-}
-@media screen and (max-width: 1000px) {
-}
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1000px) {}
+
 @media screen and (max-width: 700px) {
+
   .row1,
   .row2,
   .row3 {
     display: flex;
     flex-direction: column;
   }
+
   .skills-section {
     padding: 0 20px;
   }
+
   .links a {
     font-family: "Poppins";
     font-size: 16px;
@@ -185,54 +216,65 @@
     font-size: 42px;
     margin-top: 60px;
   }
+
   .education {
     font-size: 42px;
     color: #009349;
     margin-top: 60px;
   }
+
   .skills {
     color: #d41e28;
     margin-top: 20px;
   }
+
   .experience {
     font-size: 42px;
     color: #d3719f;
     margin-top: 60px;
   }
+
   .strengths {
     font-size: 42px;
     color: #3868a5;
     margin-top: 60px;
   }
-  
+
   .interests {
     margin-top: 60px;
     font-size: 42px;
     color: #009349;
   }
-  .school div p{
+
+  .school div p {
     width: max-content;
     font-size: 16px;
   }
-  .interest{
+
+  .interest {
     margin-bottom: 100px;
   }
+
   .skills-section {
-   
+
     margin-left: 0px;
   }
-  
+
 }
+
 @media screen and (max-width: 500px) {
-  .skills-section{
+  .skills-section {
     margin-bottom: 0;
   }
-   .school div p{
+
+  .school div p {
     width: 270px;
-   }
-   .links{
+  }
+
+  .links {
     width: fit-content;
-   }
+  }
+
   .col2 .bubbles {
     width: 300px !important;
     gap: 10px;

@@ -193,14 +193,13 @@ header {
     display: none;
   }
   .cloud2 {
-    right: 0;
-    width: 50%;
+    display: none;
   }
 }
 @media screen and (max-width: 700px) {
   .homepage .hero-image {
     position: relative;
-    width: 100%;
+    width: 95%;
     height: auto;
     margin-top: 50px;
   }

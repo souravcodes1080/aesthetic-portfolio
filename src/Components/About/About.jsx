@@ -4,6 +4,7 @@ import bookmark from "/assets/bookmark.png";
 import profile from "/assets/profile.png";
 import flower from "/assets/flower.png";
 import Skill from "../Skill/Skill";
+import { motion } from "framer-motion";
 function About() {
   return (
     <>
@@ -14,13 +15,25 @@ function About() {
         <div className="about-main">
           <div className="about-main-left"></div>
           <div className="about-main-right">
-            <img
+            <motion.img
+              initial={{ right: 120, top: -120 }}
+              whileInView={{ top: -20 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: false, amount: 1 }}
               className="bookmark"
               src={bookmark}
               alt="bookmark_png"
               width={"100%"}
             />
-            <img
+            <motion.img
+              initial={{ rotate: 0, top: "30%", left: "-60px" }}
+              animate={{ rotate: 360 }}
+              transition={{
+                duration: 5,
+                repeat: Infinity,
+                ease: "linear",
+                repeatType: "loop",
+              }}
               className="flower"
               src={flower}
               alt="flower_png"
@@ -41,7 +54,8 @@ function About() {
 
                   <div className="subtitle">
                     <span>
-                      Indian&nbsp; |&nbsp; 11th April, 2003 &nbsp;| &nbsp;@_souravjustchill
+                      Indian&nbsp; |&nbsp; 11th April, 2003 &nbsp;|
+                      &nbsp;@_souravjustchill
                     </span>
                   </div>
 
@@ -55,7 +69,8 @@ function About() {
                       web technologies to stay updated with the latest in the
                       field.
                     </p>
-                    <p>I'm passionate about blending creativity and technology. I
+                    <p>
+                      I'm passionate about blending creativity and technology. I
                       enjoy creating digital art, designing web templates, and{" "}
                       <i>paper rings. </i>Along with my technical skills,
                       <i> I never go out of Style</i> when it comes to
@@ -68,7 +83,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <Skill/>
+            <Skill />
           </div>
         </div>
       </div>

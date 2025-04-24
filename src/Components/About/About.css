@@ -31,20 +31,12 @@
   position: absolute;
   width: 120px;
 }
-.bookmark {
-  right: 150px;
-  top: -20px;
-}
-.flower {
-  top: 30%;
-  left: -60px;
-}
+
 
 .about-me {
   padding: 0 50px;
   display: flex;
   gap: 100px;
-  background-image: url("/assets/cloud.png");
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 30px;

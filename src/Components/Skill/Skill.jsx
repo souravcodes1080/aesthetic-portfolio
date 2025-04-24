@@ -13,7 +13,7 @@ import java from "/assets/java.png";
 import vs from "/assets/vs.png";
 import sql from "/assets/sql.png";
 import linux from "/assets/linux.png";
-
+import { easeInOut, motion } from "framer-motion";
 function Skill() {
   return (
     <>
@@ -22,17 +22,96 @@ function Skill() {
           <div className="col1">
             <p className="title skills">Skills</p>
             <div className="bubbles">
-              <img src={html} alt="" width={"70px"} />
-              <img src={css} alt="" width={"70px"} />
-              <img src={js} alt="" width={"70px"} />
-              <img src={react} alt="" width={"70px"} />
-              <img src={java} alt="" width={"70px"} />
-              <img src={sql} alt="" width={"70px"} />
-              <img src={vs} alt="" width={"70px"} />
-              <img src={linux} alt="" width={"70px"} />
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, ease:easeInOut }}
+                  viewport={{ once: true, amount: 1 }}
+                  src={html}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 0.2, ease:easeInOut }}
+                  viewport={{ once: true, amount: 1 }}
+                  src={css}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 0.4, ease:easeInOut }}
+                  viewport={{ once: true, amount: 1 }}
+                  src={js}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 0.6 , ease:easeInOut}}
+                  viewport={{ once: true, amount: 1 }}
+                  src={react}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 0.8 , ease:easeInOut}}
+                  viewport={{ once: true, amount: 1 }}
+                  src={java}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 1, ease:easeInOut }}
+                  viewport={{ once: true, amount: 1 }}
+                  src={sql}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 1.2, ease:easeInOut }}
+                  viewport={{ once: true, amount: 1 }}
+                  src={vs}
+                  alt=""
+                />
+              </div>
+              <div>
+                <motion.img
+                  initial={{ width: 0, height: 0, borderRadius: 100 }}
+                  whileInView={{ width: 70, height: 70, borderRadius: 12 }}
+                  transition={{ duration: 0.2, delay: 1.4, ease:easeInOut }}
+                  viewport={{ once: true, amount: 1 }}
+                  src={linux}
+                  alt=""
+                  width={"70px"}
+                />
+              </div>
             </div>
           </div>
-          <div className="col2">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.2, delay: 1, ease:easeInOut }}
+            viewport={{ once: true, amount: 1 }}
+            className="col2"
+          >
             <p className="title experience">Experience</p>
             <div className="school">
               <p className="year">2023</p>
@@ -50,10 +129,16 @@ function Skill() {
                 <p>Siliguri</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="row2">
-          <div className="col1">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.4, delay: 0, ease:easeInOut }}
+            viewport={{ once: true, amount: 1 }}
+            className="col1"
+          >
             <p className="title education">Education</p>
             <div className="school">
               <p className="year">2018-2019</p>
@@ -79,8 +164,14 @@ function Skill() {
                 <p>8.85 CGPA</p>
               </div>
             </div>
-          </div>
-          <div className="col2">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.4, delay: 0.4, ease:easeInOut }}
+            viewport={{ once: true, amount: 1 }}
+            className="col2"
+          >
             <p className="title strengths">Achievements</p>
             <div className="school">
               <p className="year">2023</p>
@@ -98,10 +189,16 @@ function Skill() {
                 <p>Kolkata</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="row3">
-          <div className="col1">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.4, delay: 0, ease:easeInOut }}
+            viewport={{ once: true, amount: 1 }}
+            className="col1"
+          >
             <p className="title contact">Contact</p>
             <div className="links">
               <div>
@@ -127,8 +224,14 @@ function Skill() {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="col2 interest">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.4, delay: 0.4, ease:easeInOut }}
+            viewport={{ once: true, amount: 1 }}
+            className="col2 interest"
+          >
             <p className="title interests">Interests</p>
             <div className="bubbles">
               <p>swifte</p>
@@ -137,7 +240,7 @@ function Skill() {
               <p>exploring</p>
               <p>painting</p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
