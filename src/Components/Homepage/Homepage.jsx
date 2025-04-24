@@ -28,6 +28,7 @@ function Homepage() {
           <motion.img
           initial={{ left:400, top: 180 }}
           whileInView={{ left: 0 }}
+          // animate={{left:0}}
           transition={{ duration: 1.5 }}
           viewport={{ once: true, amount: 1}}
           src={cloud} alt="" className="cloud2" />
