@@ -14,14 +14,22 @@ import vs from "/assets/vs.png";
 import sql from "/assets/sql.png";
 import linux from "/assets/linux.png";
 import { easeInOut, motion } from "framer-motion";
+import { Cursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
 function Skill() {
   return (
     <>
-      <div className="skills-section">
+      <Cursor
+        isGelly={true}
+        animationDuration={0.7}
+        gellyAnimationAmount={5}
+        cursorSize={100}
+      />
+      <div data-cursor-color="#00934942" className="skills-section">
         <div className="row1">
           <div className="col1">
-            <p className="title skills">Skills</p>
-            <div className="bubbles">
+            <p  className="title skills">Skills</p>
+            <div  className="bubbles">
               <div>
                 <motion.img
                   initial={{ width: 0, height: 0, borderRadius: 100 }}
@@ -29,6 +37,7 @@ function Skill() {
                   transition={{ duration: 0.2, ease:easeInOut }}
                   viewport={{ once: true, amount: 1 }}
                   src={html}
+                  
                   alt=""
                 />
               </div>

@@ -1,17 +1,20 @@
 import React from "react";
 import "./Project.css";
-import p0 from "/assets/p0.png";
-import p1 from "/assets/p1.png";
-import p2 from "/assets/p2.png";
-import p3 from "/assets/p3.png";
-import star from "/assets/star.png";
 import arrow_diagonal from "/assets/diagonal.png";
 import pink_flower from "/assets/pink_flower.png";
 import cloud from "/assets/cloud.png";
+import { Cursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
 function Project() {
   return (
     <>
-      <div className="project1-wrapper">
+      <Cursor
+        isGelly={true}
+        animationDuration={0.7}
+        gellyAnimationAmount={5}
+        cursorSize={100}
+      />
+      <div data-cursor-color="#cd729654" className="project1-wrapper">
         <div className="project1-title">
           <h1>Projects</h1>
         </div>

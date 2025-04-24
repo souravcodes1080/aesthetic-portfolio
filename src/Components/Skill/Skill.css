@@ -2,8 +2,8 @@
   /* background-image: url("/assets/cloud.png"); */
   background-repeat: no-repeat;
   background-position: 1000px 500px;
-  margin-left: 50px;
-  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
 }
 
 .skills-section .title {

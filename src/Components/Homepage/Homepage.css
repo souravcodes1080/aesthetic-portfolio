@@ -103,6 +103,7 @@ header {
   font-weight: 800;
   color: white;
   display: flex;
+  user-select: none;
 }
 .welcome-banner span {
   padding: 20px 30px;

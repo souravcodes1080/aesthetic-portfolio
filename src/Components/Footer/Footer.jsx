@@ -3,10 +3,18 @@ import "./Footer.css";
 import { motion } from "framer-motion";
 import portfolio from "/assets/portfolio.png";
 import cloud from "/assets/cloud.png";
+import { Cursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
 function Footer() {
   return (
-    <>
-      <div className="welcome-banner" id="welcome">
+    <div data-cursor-color="#e3a81d59">
+      <Cursor
+        isGelly={true}
+        animationDuration={0.7}
+        gellyAnimationAmount={5}
+        cursorSize={100}
+      />
+      <div   className="welcome-banner" id="welcome">
         <div className="marquee">
           <div className="marquee-content">
             <span>THE END.</span>
@@ -169,7 +177,7 @@ function Footer() {
         <a href="#">created with 💖 by sourav</a>
       </div>
       {/* </div> */}
-    </>
+    </div>
   );
 }
 

@@ -7,7 +7,9 @@ import Project2 from "./Components/Project2/Project2";
 import Project3 from "./Components/Project3/Project3";
 import Other from "./Components/Other/Other";
 import Footer from "./Components/Footer/Footer";
+import "react-creative-cursor/dist/styles.css";
 import "./App.css";
+import { Cursor } from "react-creative-cursor";
 function App() {
   return (
     <>
@@ -18,14 +20,16 @@ function App() {
         viewport={{ once: true, amount: 1 }}
         className="curtain"
       ></motion.div> */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 1 }}
-      ></motion.div>
+<Cursor
+            isGelly={true}
+            animationDuration={0.7}
+            gellyAnimationAmount={5}
+            cursorSize={100}
+            cursorInnerColor="#00934942"
+          />
       <Homepage />
 
-      <About />
+      <About data-cursor-color="#00934942" />
       <Project />
       {/* <Project2 /> */}
       {/* <Project3 /> */}

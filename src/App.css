@@ -1,6 +1,6 @@
 .curtain{
     
-    background-color: orange;
+    background-color: rgba(205, 158, 72, 0.525);
     z-index: 3;
     position: fixed;
     transform: translate(-50%, -50%);

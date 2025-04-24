@@ -5,10 +5,19 @@ import profile from "/assets/profile.png";
 import flower from "/assets/flower.png";
 import Skill from "../Skill/Skill";
 import { motion } from "framer-motion";
+import { Cursor } from "react-creative-cursor";
+import "react-creative-cursor/dist/styles.css";
 function About() {
   return (
     <>
-      <div className="about-wrapper">
+      <Cursor
+            isGelly={true}
+            animationDuration={0.7}
+            gellyAnimationAmount={5}
+            cursorSize={100}
+          />
+
+      <div data-cursor-color="#00934942" className="about-wrapper">
         <div className="about-title">
           <h1>Introduction</h1>
         </div>
