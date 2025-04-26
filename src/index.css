@@ -27,6 +27,7 @@ html {
   box-sizing: border-box;
   background-color: #fcf7ef;
   scroll-behavior: smooth;
+  font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smooth: always;
