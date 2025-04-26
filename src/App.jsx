@@ -3,13 +3,10 @@ import { motion, useInView } from "framer-motion";
 import Homepage from "./Components/Homepage/Homepage";
 import About from "./Components/About/About";
 import Project from "./Components/Project/Project";
-import Project2 from "./Components/Project2/Project2";
-import Project3 from "./Components/Project3/Project3";
 import cat from "/assets/cat2.png";
 import Footer from "./Components/Footer/Footer";
 import "react-creative-cursor/dist/styles.css";
 import "./App.css";
-import { Cursor } from "react-creative-cursor";
 function App() {
   const catWrapperRef = useRef(null);
   const isInView = useInView(catWrapperRef, { once: false, amount: 0.2 });

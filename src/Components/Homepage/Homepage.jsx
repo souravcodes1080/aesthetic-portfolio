@@ -34,7 +34,7 @@ function Homepage() {
               className="cloud"
             />
             <motion.img
-              initial={{ left: 400, top: 180 }}
+              initial={{ left: 400, top: 135 }}
               whileInView={{ left: 0 }}
               // animate={{left:0}}
               transition={{ duration: 1.5 }}
