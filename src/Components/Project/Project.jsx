@@ -74,7 +74,7 @@ function Project() {
                       className="p2"
                       href="https://github.com/souravcodes1080/movie-recomendation-system"
                     >
-                      Movie Recomendation System <img src={p2_share} alt="" />
+                      Movie Recommender <img src={p2_share} alt="" />
                     </a>
                   </h2>
                   <p>
@@ -170,7 +170,7 @@ function Project() {
                     <a
                       data-cursor-text=""
                       className="p2"
-                      href="https://srt-url-dev.vercel.app/"
+                      href="https://hike-psi.vercel.app/auth/v1/671uy885/login"
                       target="_blank"
                     >
                       HIKE - Chat App <img src={p2_share} alt="" />

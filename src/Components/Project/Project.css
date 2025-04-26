@@ -105,7 +105,7 @@
   color: white;
 }
 
-.project-1 h2:nth-child(1){
+.project-1 h2{
   font-size: 50px;
   font-family: 'Regan-bold';
   width: 100%;
@@ -162,10 +162,16 @@
   text-align: right;
   margin: 0;
 }
-.project-image img{
+.project-1 .project-image img{
   width: 300px;
   border-radius: 20px;
   rotate: -15deg;
+  aspect-ratio: 1/1;
+}
+.project-2 .project-image img{
+  width: 300px;
+  border-radius: 20px;
+  rotate: 15deg;
   aspect-ratio: 1/1;
 }
 
@@ -182,6 +188,88 @@
 .p4{
   color: #3868a5;
 }
+
+
+@media screen and (max-width: 1500px) {
+ .project-1{
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .project-2{
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .project-1 h2{
+  font-size: 40px;
+ }
+ .project-2 h2{
+  font-size: 40px;
+ }
+}
+
+@media screen and (max-width: 1000px) {
+  .project-1{
+    flex-direction: column;
+    gap: 25px;
+  }
+  .project-2{
+    flex-direction: column-reverse;
+    gap: 25px;
+  }
+  .project-image img{
+    rotate: 0deg !important;
+    width: 100%;
+    margin: 0 20px;
+    border-radius: 30px !important;
+  }
+  .project-description p, .project-description h2, .project-bubbles{
+    text-align: justify;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .project-1 h2{
+    font-size: 30px;
+   }
+   .project-2 h2{
+    font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+  .project1-main-left{
+    display: none;
+  }
+  .project-1 .project-description p, .project-1 h2{
+    width: 90%;
+    padding:0 20px;
+  }
+  .project-2{
+  
+    padding: 0px 0px 0px 0px;
+  }
+  .project-2 .project-description{
+    align-items: start;
+  }
+  .project-2 h2{
+    width: 90% !important;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .project-2 .project-description p{
+    text-align: justify;
+    width: 90%;
+    padding:0 20px;
+  }
+  .project-bubbles p{
+    display: none;
+  }
+}
+
+
 
 
 

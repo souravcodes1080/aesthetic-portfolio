@@ -20,9 +20,6 @@ header {
   position: relative;
   height: 75vh;
 }
-.homepage .hero-image .portfolio {
-  /* height: 100%; */
-}
 
 .hero-image .welcome {
   position: absolute;
