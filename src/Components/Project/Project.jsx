@@ -1,8 +1,6 @@
 import React from "react";
 import "./Project.css";
-import arrow_diagonal from "/assets/diagonal.png";
-import pink_flower from "/assets/pink_flower.png";
-import cloud from "/assets/cloud.png";
+import star from "/assets/star.png";
 import p1 from "/assets/p1.png";
 import p21 from "/assets/p21.png";
 import p1_share from "/assets/p1_share.png";
@@ -14,6 +12,7 @@ import o2 from "/assets/o2.png";
 import o4 from "/assets/o4.png";
 import { Cursor } from "react-creative-cursor";
 import "react-creative-cursor/dist/styles.css";
+import { motion } from "framer-motion";
 function Project() {
   return (
     <>
@@ -30,7 +29,20 @@ function Project() {
         <div className="project1-main">
           <div className="project1-main-right">
             <div className="container">
-              <div className="project-1">
+              <motion.img
+                initial={{
+                  position: "absolute",
+                  top: "-90px",
+                  left: "90px",
+                }}
+                whileInView={{top:"20px"}}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+                viewport={{ once: false, amount: 1 }}
+                src={star}
+                alt=""
+                className="star"
+              />
+              <div className="project-1 pp1">
                 <div className="project-description">
                   <h2>
                     <a
@@ -52,12 +64,23 @@ function Project() {
                     their previous orders. With various payment options,
                     including card payments through Stripe and cash on delivery.
                   </p>
-                  <div className="project-bubbles">
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      marginTop: "20px",
+                      display: "flex",
+                      columnGap: "15px",
+                    }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    viewport={{ once: false, amount: 1 }}
+                    className="project-bubbles"
+                  >
                     <p data-cursor-text="React JS">React JS</p>
                     <p data-cursor-text="Express">Express</p>
                     <p data-cursor-text="Node JS">Node JS</p>
                     <p data-cursor-text="Mongo DB">Mongo DB</p>
-                  </div>
+                  </motion.div>
                 </div>
                 <div className="project-image">
                   <img src={p1} alt="" />
@@ -88,13 +111,24 @@ function Project() {
                     buff, this tool ensures you always have the perfect movie
                     lined up for your next watch.
                   </p>
-                  <div className="project-bubbles">
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      marginTop: "20px",
+                      display: "flex",
+                      columnGap: "15px",
+                    }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    viewport={{ once: false, amount: 1 }}
+                    className="project-bubbles"
+                  >
                     <p data-cursor-text="Python">Python</p>
                     <p data-cursor-text="Pandas">Pandas</p>
                     <p data-cursor-text="NumPy">NumPy</p>
                     <p data-cursor-text="Scikit-learn">Scikit-learn</p>
                     <p data-cursor-text="TMDB">TMDB</p>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
               <div className="project-1">
@@ -119,12 +153,23 @@ function Project() {
                     scalability in mind, it's a lightweight tool perfect for
                     modern web users.
                   </p>
-                  <div className="project-bubbles">
-                  <p data-cursor-text="React JS">React JS</p>
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      marginTop: "20px",
+                      display: "flex",
+                      columnGap: "15px",
+                    }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    viewport={{ once: false, amount: 1 }}
+                    className="project-bubbles"
+                  >
+                    <p data-cursor-text="React JS">React JS</p>
                     <p data-cursor-text="Express">Express</p>
                     <p data-cursor-text="Node JS">Node JS</p>
                     <p data-cursor-text="Mongo DB">Mongo DB</p>
-                  </div>
+                  </motion.div>
                 </div>
                 <div className="project-image">
                   <img src={p21} alt="" />
@@ -155,13 +200,24 @@ function Project() {
                     journey. Get in touch easily and request quotes directly
                     from the landing page.
                   </p>
-                  <div className="project-bubbles">
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      marginTop: "20px",
+                      display: "flex",
+                      columnGap: "15px",
+                    }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    viewport={{ once: false, amount: 1 }}
+                    className="project-bubbles"
+                  >
                     <p data-cursor-text="HTML">HTML</p>
                     <p data-cursor-text="CSS">CSS</p>
                     <p data-cursor-text="JavaScript">Java Script</p>
                     <p data-cursor-text="Bootstrap">Bootstrap</p>
                     <p data-cursor-text="PHP">PHP</p>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
               <div className="project-1">
@@ -187,12 +243,23 @@ function Project() {
                     experience while demonstrating strong full-stack development
                     skills and real-time communication implementation.
                   </p>
-                  <div className="project-bubbles">
-                  <p data-cursor-text="React JS">React JS</p>
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      marginTop: "20px",
+                      display: "flex",
+                      columnGap: "15px",
+                    }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    viewport={{ once: false, amount: 1 }}
+                    className="project-bubbles"
+                  >
+                    <p data-cursor-text="React JS">React JS</p>
                     <p data-cursor-text="Express">Express</p>
                     <p data-cursor-text="Node JS">Node JS</p>
                     <p data-cursor-text="Mongo DB">Mongo DB</p>
-                  </div>
+                  </motion.div>
                 </div>
                 <div className="project-image">
                   <img src={o2} alt="" />

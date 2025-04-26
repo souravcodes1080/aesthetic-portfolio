@@ -15,6 +15,7 @@
   margin-bottom: 50px ;
 }
 .project1-main-right {
+  position: relative;
   background-color: #fcf7ef;
   height: 100%;
   display: flex;
@@ -24,6 +25,7 @@
 .project1-title {
   margin-right: 150px;
 }
+
 
 .project1-title h1 {
   font-family: "Regan-ExtraBold";
@@ -47,9 +49,9 @@
 }
 
 .project-bubbles{
-  margin-top: 20px;
+  /* margin-top: 20px;
   display: flex;
-  column-gap: 15px !important
+  column-gap: 15px !important */
 }
 .project-bubbles p {
   border: 3px solid blue;
@@ -167,12 +169,21 @@
   border-radius: 20px;
   rotate: -15deg;
   aspect-ratio: 1/1;
+  transition: .5s ease all;
+}
+.project-1 .project-image img:hover{
+  rotate: 0deg;
 }
 .project-2 .project-image img{
   width: 300px;
   border-radius: 20px;
   rotate: 15deg;
   aspect-ratio: 1/1;
+  transition: .5s ease all;
+}
+.project-2 .project-image img:hover{
+  rotate: 0deg;
+ 
 }
 
 
@@ -226,6 +237,7 @@
     text-align: justify;
     width: 100%;
   }
+  .star{display: none;}
 
 }
 
@@ -239,6 +251,7 @@
 }
 
 @media screen and (max-width: 500px) {
+ 
   .project1-main-left{
     display: none;
   }
@@ -266,6 +279,9 @@
   }
   .project-bubbles p{
     display: none;
+  }
+  .pp1{
+    padding-top: 0 !important;
   }
 }
 

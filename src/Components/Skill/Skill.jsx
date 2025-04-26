@@ -144,7 +144,7 @@ function Skill() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.4, delay: 0, ease:easeInOut }}
+            transition={{ duration: 0.2, delay: 0, ease:easeInOut }}
             viewport={{ once: true, amount: 1 }}
             className="col1"
           >
@@ -177,7 +177,7 @@ function Skill() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.4, delay: 0.4, ease:easeInOut }}
+            transition={{ duration: 0.2, delay: 0.4, ease:easeInOut }}
             viewport={{ once: true, amount: 1 }}
             className="col2"
           >
@@ -204,7 +204,7 @@ function Skill() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.4, delay: 0, ease:easeInOut }}
+            transition={{ duration: 0.2, delay: 0, ease:easeInOut }}
             viewport={{ once: true, amount: 1 }}
             className="col1"
           >
@@ -237,17 +237,17 @@ function Skill() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.4, delay: 0.4, ease:easeInOut }}
+            transition={{ duration: 0.2, delay: 0.4, ease:easeInOut }}
             viewport={{ once: true, amount: 1 }}
             className="col2 interest"
           >
             <p className="title interests">Interests</p>
             <div className="bubbles">
-              <p>swifte</p>
-              <p>music</p>
-              <p>travelling</p>
-              <p>exploring</p>
-              <p>painting</p>
+              <p data-cursor-text="swiftie">swifte</p>
+              <p data-cursor-text="music">music</p>
+              <p data-cursor-text="travelling">travelling</p>
+              <p data-cursor-text="exploring">exploring</p>
+              <p data-cursor-text="painting">painting</p>
             </div>
           </motion.div>
         </div>

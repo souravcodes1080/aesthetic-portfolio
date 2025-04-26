@@ -51,7 +51,7 @@ function About() {
             <div className="container">
               <div className="about-me">
                 <div className="profile">
-                  <img src={profile} alt="Karma" />
+                  <img src={profile} alt="Sourav Chowdhury's profile picture" />
                 </div>
                 <div className="description">
                   <div className="name">

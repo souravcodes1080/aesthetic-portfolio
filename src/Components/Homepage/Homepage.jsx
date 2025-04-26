@@ -54,7 +54,7 @@ function Homepage() {
                 transition={{ duration: 1.5 }}
                 viewport={{ once: true, amount: 1 }}
                 src={portfolio}
-                alt=""
+                alt="Sourav's portfolio"
                 className="portfolio"
               />
             </div>
@@ -65,7 +65,7 @@ function Homepage() {
             </div>
             <div className="scroll">
               <a href="#welcome">scroll down to view</a>
-              <img className="down-arrow" src={down} alt="" />
+              <img className="down-arrow" src={down} alt="down arrow" />
             </div>
           </main>
         </div>
