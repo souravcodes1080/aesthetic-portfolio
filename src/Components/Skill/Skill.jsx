@@ -23,7 +23,7 @@ function Skill() {
       <div  className="skills-section">
         <div className="row1">
           <div className="col1">
-            <p  className="title skills">Skills</p>
+            <p  className="title skills">skills</p>
             <div  className="bubbles">
               <div>
                 <motion.img
@@ -116,21 +116,21 @@ function Skill() {
             viewport={{ once: true, amount: 1 }}
             className="col2"
           >
-            <p className="title experience">Experience</p>
+            <p className="title experience">experience</p>
             <div className="school">
               <p className="year">2023</p>
               <div>
-                <p className="experience-heading">Web Developer Intern</p>
-                <p>Groveus Informatics Pvt. Ltd.</p>
-                <p>Siliguri</p>
+                <p className="experience-heading">web developer intern</p>
+                <p>groveus informatics pvt. ltd.</p>
+                <p>siliguri</p>
               </div>
             </div>
             <div className="school">
               <p className="year">2024</p>
               <div>
-                <p className="experience-heading">Web Developer Intern</p>
-                <p>Wow Gateways Siliguri</p>
-                <p>Siliguri</p>
+                <p className="experience-heading">web developer intern</p>
+                <p>wow gateways</p>
+                <p>siliguri</p>
               </div>
             </div>
           </motion.div>
@@ -143,28 +143,28 @@ function Skill() {
             viewport={{ once: true, amount: 1 }}
             className="col1"
           >
-            <p className="title education">Education</p>
+            <p className="title education">education</p>
             <div className="school">
               <p className="year">2018-2019</p>
               <div>
-                <p>Secondary</p>
-                <p>Techno India Group Public School</p>
+                <p>secondary</p>
+                <p>techno india group public school</p>
                 <p>93.2%</p>
               </div>
             </div>
             <div className="school">
               <p className="year">2020-2021</p>
               <div>
-                <p>Higher Secondary</p>
-                <p>Techno India Group Public School</p>
+                <p>higher secondary</p>
+                <p>techno india group public school</p>
                 <p>92.3%</p>
               </div>
             </div>
             <div className="school">
               <p className="year">2021-2025</p>
               <div>
-                <p>BTech in Computer Science</p>
-                <p>Siliguri Institute of Technoloy</p>
+                <p>btech in computer science</p>
+                <p>siliguri institute of technoloy</p>
                 <p>8.85 CGPA</p>
               </div>
             </div>
@@ -176,21 +176,21 @@ function Skill() {
             viewport={{ once: true, amount: 1 }}
             className="col2"
           >
-            <p className="title strengths">Achievements</p>
+            <p className="title strengths">achievements</p>
             <div className="school">
               <p className="year">2023</p>
               <div>
-                <p className="achievements-heading">Smart India Hackathon</p>
-                <p>Grand Finalist</p>
-                <p>Nagpur</p>
+                <p className="achievements-heading">smart india hackathon</p>
+                <p>grand finalist</p>
+                <p>nagpur</p>
               </div>
             </div>
             <div className="school">
               <p className="year">2024</p>
               <div>
-                <p className="achievements-heading">Hack 4 Bengal</p>
-                <p>Participant</p>
-                <p>Kolkata</p>
+                <p className="achievements-heading">hack 4 bengal</p>
+                <p>participant</p>
+                <p>kolkata</p>
               </div>
             </div>
           </motion.div>
@@ -203,7 +203,7 @@ function Skill() {
             viewport={{ once: true, amount: 1 }}
             className="col1"
           >
-            <p className="title contact">Contact</p>
+            <p className="title contact">contact</p>
             <div className="links">
               <div>
                 <img src={call} alt="" width={"25px"} />
@@ -236,7 +236,7 @@ function Skill() {
             viewport={{ once: true, amount: 1 }}
             className="col2 interest"
           >
-            <p className="title interests">Interests</p>
+            <p className="title interests">interests</p>
             <div className="bubbles">
               <p data-cursor-text="swiftie">swifte</p>
               <p data-cursor-text="music">music</p>

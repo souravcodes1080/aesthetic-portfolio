@@ -1,40 +1,45 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 import Homepage from "./Components/Homepage/Homepage";
 import About from "./Components/About/About";
 import Project from "./Components/Project/Project";
 import Project2 from "./Components/Project2/Project2";
 import Project3 from "./Components/Project3/Project3";
-import Other from "./Components/Other/Other";
+import cat from "/assets/cat2.png";
 import Footer from "./Components/Footer/Footer";
 import "react-creative-cursor/dist/styles.css";
 import "./App.css";
 import { Cursor } from "react-creative-cursor";
 function App() {
+  const catWrapperRef = useRef(null);
+  const isInView = useInView(catWrapperRef, { once: false, amount: 0.2 });
   return (
     <>
-      {/* <motion.div
-        initial={{ width: 5000, height: 5000}}
-        animate={{ width: 0, height: 0, borderRadius:'100%' }}
-        transition={{ duration: 1 }}
-        viewport={{ once: true, amount: 1 }}
-        className="curtain"
-      ></motion.div> */}
-<Cursor
-            isGelly={true}
-            animationDuration={0.7}
-            gellyAnimationAmount={5}
-            cursorSize={100}
-            cursorInnerColor="#00934942"
-          />
-      <Homepage />
+      <section className="app">
+        <Homepage />
 
-      <About data-cursor-color="#00934942" />
-      <Project />
-      {/* <Project2 /> */}
-      {/* <Project3 /> */}
-      {/* <Other /> */}
-      <Footer />
+        <About data-cursor-color="#00934942" />
+        <Project />
+        <Footer />
+        <div
+          ref={catWrapperRef}
+          className="cat-wrapper"
+          data-cursor-color="#e3a81d33"
+          data-cursor-text="resume"
+        >
+          <a href="/assets/Resume.pdf" download>
+            <motion.img
+              initial={{ bottom: "-600px" }}
+              animate={isInView ? { bottom: "0px" } : {}}
+              transition={{ duration: 0.8, type: "spring" }}
+              src={cat}
+              alt="cute-cat"
+              className="cat"
+              width={"100%"}
+            />
+          </a>
+        </div>
+      </section>
     </>
   );
 }

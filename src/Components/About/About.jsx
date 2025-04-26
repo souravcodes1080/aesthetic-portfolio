@@ -11,15 +11,15 @@ function About() {
   return (
     <>
       <Cursor
-            isGelly={true}
-            animationDuration={0.7}
-            gellyAnimationAmount={5}
-            cursorSize={100}
-          />
+        isGelly={true}
+        animationDuration={0.7}
+        gellyAnimationAmount={5}
+        cursorSize={100}
+      />
 
       <div data-cursor-color="#0093492c" className="about-wrapper">
         <div className="about-title">
-          <h1>Introduction</h1>
+          <h1>introduction</h1>
         </div>
         <div className="about-main">
           <div className="about-main-left"></div>
@@ -27,7 +27,7 @@ function About() {
             <motion.img
               initial={{ right: 120, top: -120 }}
               whileInView={{ top: -20 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5 , type: "spring" }}
               viewport={{ once: false, amount: 1 }}
               className="bookmark"
               src={bookmark}
@@ -63,7 +63,7 @@ function About() {
 
                   <div className="subtitle">
                     <span>
-                      Indian&nbsp; |&nbsp; 11th April, 2003 &nbsp;|
+                      indian&nbsp; |&nbsp; 11th april, 2003 &nbsp;|
                       &nbsp;@_souravjustchill
                     </span>
                   </div>

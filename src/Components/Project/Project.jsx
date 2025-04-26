@@ -24,7 +24,7 @@ function Project() {
       />
       <div data-cursor-color="#cd729631" className="project1-wrapper">
         <div className="project1-title">
-          <h1>Projects</h1>
+          <h1>projects</h1>
         </div>
         <div className="project1-main">
           <div className="project1-main-right">
@@ -36,8 +36,8 @@ function Project() {
                   left: "90px",
                 }}
                 whileInView={{top:"20px"}}
-                transition={{ duration: 0.6, ease: "easeInOut" }}
-                viewport={{ once: false, amount: 1 }}
+                transition={{ duration: 0.6, ease: "easeInOut" ,type: "spring" }}
+                viewport={{ once: false, amount: 0.2 }}
                 src={star}
                 alt=""
                 className="star"
@@ -51,7 +51,7 @@ function Project() {
                       href="https://tomato-food-delivery.onrender.com/"
                       target="_blank"
                     >
-                      The Hungry Helper <img src={p1_share} alt="" />
+                      the hungry helper <img src={p1_share} alt="" />
                     </a>
                   </h2>
                   <p>
@@ -76,10 +76,10 @@ function Project() {
                     viewport={{ once: false, amount: 1 }}
                     className="project-bubbles"
                   >
-                    <p data-cursor-text="React JS">React JS</p>
-                    <p data-cursor-text="Express">Express</p>
-                    <p data-cursor-text="Node JS">Node JS</p>
-                    <p data-cursor-text="Mongo DB">Mongo DB</p>
+                    <p data-cursor-text="react js">react js</p>
+                    <p data-cursor-text="express">express</p>
+                    <p data-cursor-text="node js">node js</p>
+                    <p data-cursor-text="mongo db">mongo db</p>
                   </motion.div>
                 </div>
                 <div className="project-image">
@@ -97,7 +97,7 @@ function Project() {
                       className="p2"
                       href="https://github.com/souravcodes1080/movie-recomendation-system"
                     >
-                      Movie Recommender <img src={p2_share} alt="" />
+                      movie recommender <img src={p2_share} alt="" />
                     </a>
                   </h2>
                   <p>
@@ -123,11 +123,11 @@ function Project() {
                     viewport={{ once: false, amount: 1 }}
                     className="project-bubbles"
                   >
-                    <p data-cursor-text="Python">Python</p>
-                    <p data-cursor-text="Pandas">Pandas</p>
-                    <p data-cursor-text="NumPy">NumPy</p>
-                    <p data-cursor-text="Scikit-learn">Scikit-learn</p>
-                    <p data-cursor-text="TMDB">TMDB</p>
+                    <p data-cursor-text="python">python</p>
+                    <p data-cursor-text="pandas">pandas</p>
+                    <p data-cursor-text="numPy">numPy</p>
+                    <p data-cursor-text="scikit-learn">scikit-learn</p>
+                    <p data-cursor-text="tmdb">tmdb</p>
                   </motion.div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ function Project() {
                       href="https://srt-url-dev.vercel.app/"
                       target="_blank"
                     >
-                      URL Shrotner <img src={p3_share} alt="" />
+                      url shrotener <img src={p3_share} alt="" />
                     </a>
                   </h2>
                   <p>
@@ -165,10 +165,10 @@ function Project() {
                     viewport={{ once: false, amount: 1 }}
                     className="project-bubbles"
                   >
-                    <p data-cursor-text="React JS">React JS</p>
-                    <p data-cursor-text="Express">Express</p>
-                    <p data-cursor-text="Node JS">Node JS</p>
-                    <p data-cursor-text="Mongo DB">Mongo DB</p>
+                  <p data-cursor-text="react js">react js</p>
+                    <p data-cursor-text="express">express</p>
+                    <p data-cursor-text="node js">node js</p>
+                    <p data-cursor-text="mongo db">mongo db</p>
                   </motion.div>
                 </div>
                 <div className="project-image">
@@ -186,7 +186,7 @@ function Project() {
                       className="p4"
                       href="https://keralaroadlines.com/"
                     >
-                      Kerala Roadlines <img src={p4_share} alt="" />
+                      kerala roadlines <img src={p4_share} alt="" />
                     </a>
                   </h2>
                   <p>
@@ -212,11 +212,11 @@ function Project() {
                     viewport={{ once: false, amount: 1 }}
                     className="project-bubbles"
                   >
-                    <p data-cursor-text="HTML">HTML</p>
-                    <p data-cursor-text="CSS">CSS</p>
-                    <p data-cursor-text="JavaScript">Java Script</p>
-                    <p data-cursor-text="Bootstrap">Bootstrap</p>
-                    <p data-cursor-text="PHP">PHP</p>
+                    <p data-cursor-text="html">html</p>
+                    <p data-cursor-text="css">css</p>
+                    <p data-cursor-text="java script">java script</p>
+                    <p data-cursor-text="bootstrap">bootstrap</p>
+                    <p data-cursor-text="php">php</p>
                   </motion.div>
                 </div>
               </div>
@@ -229,7 +229,7 @@ function Project() {
                       href="https://hike-psi.vercel.app/auth/v1/671uy885/login"
                       target="_blank"
                     >
-                      HIKE - Chat App <img src={p2_share} alt="" />
+                      hike - chat app <img src={p2_share} alt="" />
                     </a>
                   </h2>
                   <p>
@@ -255,10 +255,10 @@ function Project() {
                     viewport={{ once: false, amount: 1 }}
                     className="project-bubbles"
                   >
-                    <p data-cursor-text="React JS">React JS</p>
-                    <p data-cursor-text="Express">Express</p>
-                    <p data-cursor-text="Node JS">Node JS</p>
-                    <p data-cursor-text="Mongo DB">Mongo DB</p>
+                    <p data-cursor-text="react js">react js</p>
+                    <p data-cursor-text="express">express</p>
+                    <p data-cursor-text="node js">node js</p>
+                    <p data-cursor-text="mongo db">mongo db</p>
                   </motion.div>
                 </div>
                 <div className="project-image">

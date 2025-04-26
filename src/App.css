@@ -1,8 +1,29 @@
-.curtain{
-    
-    background-color: rgba(205, 158, 72, 0.525);
-    z-index: 3;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    left: 50%;
+.app{
+    position: relative;
+}
+.cat-wrapper{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    background-color: transparent;
+    overflow: hidden;
+}
+.cat{
+    position: absolute;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+.cat:hover{
+    width: 255px;
+}
+.cat:active{
+    width: 245px;
+}
+
+@media  (max-width:700px) {
+    .cat-wrapper{
+        display: none;
+    }
 }
