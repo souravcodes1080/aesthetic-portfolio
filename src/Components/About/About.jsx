@@ -17,7 +17,7 @@ function About() {
             cursorSize={100}
           />
 
-      <div data-cursor-color="#00934942" className="about-wrapper">
+      <div data-cursor-color="#0093492c" className="about-wrapper">
         <div className="about-title">
           <h1>Introduction</h1>
         </div>

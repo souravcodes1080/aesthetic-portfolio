@@ -19,13 +19,8 @@ import "react-creative-cursor/dist/styles.css";
 function Skill() {
   return (
     <>
-      <Cursor
-        isGelly={true}
-        animationDuration={0.7}
-        gellyAnimationAmount={5}
-        cursorSize={100}
-      />
-      <div data-cursor-color="#00934942" className="skills-section">
+      
+      <div  className="skills-section">
         <div className="row1">
           <div className="col1">
             <p  className="title skills">Skills</p>

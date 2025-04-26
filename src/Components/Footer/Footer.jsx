@@ -7,7 +7,7 @@ import { Cursor } from "react-creative-cursor";
 import "react-creative-cursor/dist/styles.css";
 function Footer() {
   return (
-    <div data-cursor-color="#e3a81d59">
+    <div data-cursor-color="#e3a81d33">
       <Cursor
         isGelly={true}
         animationDuration={0.7}
@@ -78,12 +78,12 @@ function Footer() {
           </i>
         </p>
         <div className="footer-contact">
-          <p>
-            phone: <a href="#">(+91) 86951 55200</a>{" "}
+          <p >
+            phone: <a data-cursor-text="" href="tel:+918695155200">(+91) 86951 55200</a>{" "}
           </p>
           <p>|</p>
           <p>
-            <a href="#">souravch2003@gmail.com</a>
+            <a data-cursor-text="" href="mailto:souravch2003@gmail.com">souravch2003@gmail.com</a>
           </p>
         </div>
       </div>

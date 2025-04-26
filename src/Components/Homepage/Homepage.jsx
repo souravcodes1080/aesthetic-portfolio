@@ -16,7 +16,7 @@ function Homepage() {
         gellyAnimationAmount={5}
         cursorSize={100}
       />
-      <div data-cursor-color="#d41e285e">
+      <div data-cursor-color="#d41e2733">
         <div className="container homepage">
           <header>
             <p className="brand">sourav.</p>

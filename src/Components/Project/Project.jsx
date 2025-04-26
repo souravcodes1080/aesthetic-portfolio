@@ -22,7 +22,7 @@ function Project() {
         gellyAnimationAmount={5}
         cursorSize={100}
       />
-      <div data-cursor-color="#cd729654" className="project1-wrapper">
+      <div data-cursor-color="#cd729631" className="project1-wrapper">
         <div className="project1-title">
           <h1>Projects</h1>
         </div>
