@@ -238,7 +238,7 @@ function Skill() {
           >
             <p className="title interests">interests</p>
             <div className="bubbles">
-              <p data-cursor-text="swiftie">swifte</p>
+              <p data-cursor-text="swiftie">swiftie</p>
               <p data-cursor-text="music">music</p>
               <p data-cursor-text="travelling">travelling</p>
               <p data-cursor-text="exploring">exploring</p>
